@@ -1,0 +1,216 @@
+country_code,country_name,income_group,region,n_years_total,n_years_observed,pct_missing,keep_country
+VIR,Virgin Islands (U.S.),High income,Latin America & Caribbean,34,0,1.0,false
+ABW,Aruba,High income,Latin America & Caribbean,34,0,1.0,false
+MAC,"Macao SAR, China",High income,East Asia & Pacific,34,0,1.0,false
+CUW,Curacao,High income,Latin America & Caribbean,34,0,1.0,false
+NCL,New Caledonia,High income,East Asia & Pacific,34,0,1.0,false
+GUM,Guam,High income,East Asia & Pacific,34,0,1.0,false
+BMU,Bermuda,High income,North America,34,0,1.0,false
+SXM,Sint Maarten (Dutch part),High income,Latin America & Caribbean,34,0,1.0,false
+GIB,Gibraltar,High income,Europe & Central Asia,34,0,1.0,false
+CHI,Channel Islands,High income,Europe & Central Asia,34,0,1.0,false
+GRL,Greenland,High income,Europe & Central Asia,34,0,1.0,false
+PYF,French Polynesia,High income,East Asia & Pacific,34,0,1.0,false
+LIE,Liechtenstein,High income,Europe & Central Asia,34,0,1.0,false
+ASM,American Samoa,High income,East Asia & Pacific,34,0,1.0,false
+MNP,Northern Mariana Islands,High income,East Asia & Pacific,34,0,1.0,false
+HKG,"Hong Kong SAR, China",High income,East Asia & Pacific,34,0,1.0,false
+FRO,Faroe Islands,High income,Europe & Central Asia,34,0,1.0,false
+CYM,Cayman Islands,High income,Latin America & Caribbean,34,0,1.0,false
+MAF,St. Martin (French part),High income,Latin America & Caribbean,34,0,1.0,false
+PRI,Puerto Rico (US),High income,Latin America & Caribbean,34,0,1.0,false
+IMN,Isle of Man,High income,Europe & Central Asia,34,0,1.0,false
+GNB,Guinea-Bissau,Low income,Sub-Saharan Africa,34,34,0.0,true
+YEM,"Yemen, Rep.",Low income,Middle East & North Africa,34,34,0.0,true
+BEL,Belgium,High income,Europe & Central Asia,34,34,0.0,true
+BGR,Bulgaria,High income,Europe & Central Asia,34,34,0.0,true
+BOL,Bolivia,Lower middle income,Latin America & Caribbean,34,34,0.0,true
+CPV,Cabo Verde,Upper middle income,Sub-Saharan Africa,34,34,0.0,true
+DNK,Denmark,High income,Europe & Central Asia,34,34,0.0,true
+DOM,Dominican Republic,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+GNQ,Equatorial Guinea,Upper middle income,Sub-Saharan Africa,34,34,0.0,true
+HRV,Croatia,High income,Europe & Central Asia,34,34,0.0,true
+MDA,Moldova,Upper middle income,Europe & Central Asia,34,34,0.0,true
+MUS,Mauritius,Upper middle income,Sub-Saharan Africa,34,34,0.0,true
+RWA,Rwanda,Low income,Sub-Saharan Africa,34,34,0.0,true
+NER,Niger,Low income,Sub-Saharan Africa,34,34,0.0,true
+NOR,Norway,High income,Europe & Central Asia,34,34,0.0,true
+QAT,Qatar,High income,Middle East & North Africa,34,34,0.0,true
+SLB,Solomon Islands,Lower middle income,East Asia & Pacific,34,34,0.0,true
+ARE,United Arab Emirates,High income,Middle East & North Africa,34,34,0.0,true
+CIV,Cote d'Ivoire,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+SSD,South Sudan,Low income,Sub-Saharan Africa,34,34,0.0,true
+GRD,Grenada,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+KGZ,Kyrgyz Republic,Lower middle income,Europe & Central Asia,34,34,0.0,true
+LUX,Luxembourg,High income,Europe & Central Asia,34,34,0.0,true
+MCO,Monaco,High income,Europe & Central Asia,34,34,0.0,true
+PAN,Panama,High income,Latin America & Caribbean,34,34,0.0,true
+TUN,Tunisia,Lower middle income,Middle East & North Africa,34,34,0.0,true
+GTM,Guatemala,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+BIH,Bosnia and Herzegovina,Upper middle income,Europe & Central Asia,34,34,0.0,true
+CMR,Cameroon,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+EGY,"Egypt, Arab Rep.",Lower middle income,Middle East & North Africa,34,34,0.0,true
+ISL,Iceland,High income,Europe & Central Asia,34,34,0.0,true
+KEN,Kenya,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+KWT,Kuwait,High income,Middle East & North Africa,34,34,0.0,true
+LBY,Libya,Upper middle income,Middle East & North Africa,34,34,0.0,true
+LSO,Lesotho,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+MHL,Marshall Islands,Upper middle income,East Asia & Pacific,34,34,0.0,true
+OMN,Oman,High income,Middle East & North Africa,34,34,0.0,true
+SWZ,Eswatini,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+TCD,Chad,Low income,Sub-Saharan Africa,34,34,0.0,true
+TJK,Tajikistan,Lower middle income,Europe & Central Asia,34,34,0.0,true
+USA,United States,High income,North America,34,34,0.0,true
+UZB,Uzbekistan,Lower middle income,Europe & Central Asia,34,34,0.0,true
+VNM,Viet Nam,Lower middle income,East Asia & Pacific,34,34,0.0,true
+SUR,Suriname,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+BDI,Burundi,Low income,Sub-Saharan Africa,34,34,0.0,true
+ECU,Ecuador,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+CYP,Cyprus,High income,Europe & Central Asia,34,34,0.0,true
+FRA,France,High income,Europe & Central Asia,34,34,0.0,true
+HTI,Haiti,Lower middle income,Latin America & Caribbean,34,34,0.0,true
+HUN,Hungary,High income,Europe & Central Asia,34,34,0.0,true
+ITA,Italy,High income,Europe & Central Asia,34,34,0.0,true
+MDV,Maldives,Upper middle income,South Asia,34,34,0.0,true
+MLT,Malta,High income,Middle East & North Africa,34,34,0.0,true
+MYS,Malaysia,Upper middle income,East Asia & Pacific,34,34,0.0,true
+NGA,Nigeria,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+PRK,"Korea, Dem. People's Rep.",Low income,East Asia & Pacific,34,34,0.0,true
+PRY,Paraguay,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+CHN,China,Upper middle income,East Asia & Pacific,34,34,0.0,true
+ROU,Romania,High income,Europe & Central Asia,34,34,0.0,true
+STP,Sao Tome and Principe,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+TCA,Turks and Caicos Islands,High income,Latin America & Caribbean,34,34,0.0,true
+TUR,Turkiye,Upper middle income,Europe & Central Asia,34,34,0.0,true
+BHS,"Bahamas, The",High income,Latin America & Caribbean,34,34,0.0,true
+BWA,Botswana,Upper middle income,Sub-Saharan Africa,34,34,0.0,true
+LVA,Latvia,High income,Europe & Central Asia,34,34,0.0,true
+NLD,Netherlands,High income,Europe & Central Asia,34,34,0.0,true
+SLV,El Salvador,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+TTO,Trinidad and Tobago,High income,Latin America & Caribbean,34,34,0.0,true
+AFG,Afghanistan,Low income,Middle East & North Africa,34,34,0.0,true
+BEN,Benin,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+COG,"Congo, Rep.",Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+CUB,Cuba,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+FIN,Finland,High income,Europe & Central Asia,34,34,0.0,true
+MRT,Mauritania,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+PHL,Philippines,Lower middle income,East Asia & Pacific,34,34,0.0,true
+SDN,Sudan,Low income,Sub-Saharan Africa,34,34,0.0,true
+SEN,Senegal,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+SGP,Singapore,High income,East Asia & Pacific,34,34,0.0,true
+SLE,Sierra Leone,Low income,Sub-Saharan Africa,34,34,0.0,true
+DEU,Germany,High income,Europe & Central Asia,34,34,0.0,true
+DMA,Dominica,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+URY,Uruguay,High income,Latin America & Caribbean,34,34,0.0,true
+IRQ,Iraq,Upper middle income,Middle East & North Africa,34,34,0.0,true
+JOR,Jordan,Lower middle income,Middle East & North Africa,34,34,0.0,true
+LBN,Lebanon,Lower middle income,Middle East & North Africa,34,34,0.0,true
+LBR,Liberia,Low income,Sub-Saharan Africa,34,34,0.0,true
+MEX,Mexico,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+MLI,Mali,Low income,Sub-Saharan Africa,34,34,0.0,true
+NPL,Nepal,Lower middle income,South Asia,34,34,0.0,true
+PNG,Papua New Guinea,Lower middle income,East Asia & Pacific,34,34,0.0,true
+SVN,Slovenia,High income,Europe & Central Asia,34,34,0.0,true
+CHE,Switzerland,High income,Europe & Central Asia,34,34,0.0,true
+PSE,West Bank and Gaza,Lower middle income,Middle East & North Africa,34,34,0.0,true
+SOM,"Somalia, Fed. Rep.",Low income,Sub-Saharan Africa,34,34,0.0,true
+FSM,"Micronesia, Fed. Sts.",Lower middle income,East Asia & Pacific,34,34,0.0,true
+COD,"Congo, Dem. Rep.",Low income,Sub-Saharan Africa,34,34,0.0,true
+GBR,United Kingdom,High income,Europe & Central Asia,34,34,0.0,true
+GHA,Ghana,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+LAO,Lao PDR,Lower middle income,East Asia & Pacific,34,34,0.0,true
+MKD,North Macedonia,Upper middle income,Europe & Central Asia,34,34,0.0,true
+MNG,Mongolia,Upper middle income,East Asia & Pacific,34,34,0.0,true
+PRT,Portugal,High income,Europe & Central Asia,34,34,0.0,true
+SVK,Slovak Republic,High income,Europe & Central Asia,34,34,0.0,true
+THA,Thailand,Upper middle income,East Asia & Pacific,34,34,0.0,true
+TON,Tonga,Upper middle income,East Asia & Pacific,34,34,0.0,true
+ZAF,South Africa,Upper middle income,Sub-Saharan Africa,34,34,0.0,true
+ZMB,Zambia,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+BLR,Belarus,Upper middle income,Europe & Central Asia,34,34,0.0,true
+CRI,Costa Rica,High income,Latin America & Caribbean,34,34,0.0,true
+GEO,Georgia,Upper middle income,Europe & Central Asia,34,34,0.0,true
+IRL,Ireland,High income,Europe & Central Asia,34,34,0.0,true
+JAM,Jamaica,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+KNA,St. Kitts and Nevis,High income,Latin America & Caribbean,34,34,0.0,true
+PLW,Palau,High income,East Asia & Pacific,34,34,0.0,true
+SRB,Serbia,Upper middle income,Europe & Central Asia,34,34,0.0,true
+TGO,Togo,Low income,Sub-Saharan Africa,34,34,0.0,true
+AND,Andorra,High income,Europe & Central Asia,34,34,0.0,true
+ARM,Armenia,Upper middle income,Europe & Central Asia,34,34,0.0,true
+BTN,Bhutan,Lower middle income,South Asia,34,34,0.0,true
+BRN,Brunei Darussalam,High income,East Asia & Pacific,34,34,0.0,true
+FJI,Fiji,Upper middle income,East Asia & Pacific,34,34,0.0,true
+KOR,"Korea, Rep.",High income,East Asia & Pacific,34,34,0.0,true
+MDG,Madagascar,Low income,Sub-Saharan Africa,34,34,0.0,true
+MMR,Myanmar,Lower middle income,East Asia & Pacific,34,34,0.0,true
+MWI,Malawi,Low income,Sub-Saharan Africa,34,34,0.0,true
+POL,Poland,High income,Europe & Central Asia,34,34,0.0,true
+TKM,Turkmenistan,Upper middle income,Europe & Central Asia,34,34,0.0,true
+VGB,British Virgin Islands,High income,Latin America & Caribbean,34,34,0.0,true
+VUT,Vanuatu,Lower middle income,East Asia & Pacific,34,34,0.0,true
+ARG,Argentina,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+DJI,Djibouti,Lower middle income,Middle East & North Africa,34,34,0.0,true
+GIN,Guinea,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+IDN,Indonesia,Upper middle income,East Asia & Pacific,34,34,0.0,true
+KAZ,Kazakhstan,Upper middle income,Europe & Central Asia,34,34,0.0,true
+LCA,St. Lucia,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+LTU,Lithuania,High income,Europe & Central Asia,34,34,0.0,true
+PAK,Pakistan,Lower middle income,Middle East & North Africa,34,34,0.0,true
+PER,Peru,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+ALB,Albania,Upper middle income,Europe & Central Asia,34,34,0.0,true
+SWE,Sweden,High income,Europe & Central Asia,34,34,0.0,true
+XKX,Kosovo,Upper middle income,Europe & Central Asia,34,34,0.0,true
+ATG,Antigua and Barbuda,High income,Latin America & Caribbean,34,34,0.0,true
+BFA,Burkina Faso,Low income,Sub-Saharan Africa,34,34,0.0,true
+BHR,Bahrain,High income,Middle East & North Africa,34,34,0.0,true
+CHL,Chile,High income,Latin America & Caribbean,34,34,0.0,true
+CZE,Czechia,High income,Europe & Central Asia,34,34,0.0,true
+IND,India,Lower middle income,South Asia,34,34,0.0,true
+NZL,New Zealand,High income,East Asia & Pacific,34,34,0.0,true
+BGD,Bangladesh,Lower middle income,South Asia,34,34,0.0,true
+RUS,Russian Federation,High income,Europe & Central Asia,34,34,0.0,true
+SYC,Seychelles,High income,Sub-Saharan Africa,34,34,0.0,true
+TUV,Tuvalu,Upper middle income,East Asia & Pacific,34,34,0.0,true
+BRB,Barbados,High income,Latin America & Caribbean,34,34,0.0,true
+BRA,Brazil,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+AZE,Azerbaijan,Upper middle income,Europe & Central Asia,34,34,0.0,true
+AUT,Austria,High income,Europe & Central Asia,34,34,0.0,true
+ESP,Spain,High income,Europe & Central Asia,34,34,0.0,true
+KIR,Kiribati,Lower middle income,East Asia & Pacific,34,34,0.0,true
+MNE,Montenegro,Upper middle income,Europe & Central Asia,34,34,0.0,true
+SAU,Saudi Arabia,High income,Middle East & North Africa,34,34,0.0,true
+VCT,St. Vincent and the Grenadines,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+WSM,Samoa,Upper middle income,East Asia & Pacific,34,34,0.0,true
+BLZ,Belize,Upper middle income,Latin America & Caribbean,34,34,0.0,true
+CAF,Central African Republic,Low income,Sub-Saharan Africa,34,34,0.0,true
+CAN,Canada,High income,North America,34,34,0.0,true
+COM,Comoros,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+DZA,Algeria,Upper middle income,Middle East & North Africa,34,34,0.0,true
+ERI,Eritrea,Low income,Sub-Saharan Africa,34,34,0.0,true
+EST,Estonia,High income,Europe & Central Asia,34,34,0.0,true
+UGA,Uganda,Low income,Sub-Saharan Africa,34,34,0.0,true
+GMB,"Gambia, The",Low income,Sub-Saharan Africa,34,34,0.0,true
+IRN,"Iran, Islamic Rep.",Upper middle income,Middle East & North Africa,34,34,0.0,true
+JPN,Japan,High income,East Asia & Pacific,34,34,0.0,true
+KHM,Cambodia,Lower middle income,East Asia & Pacific,34,34,0.0,true
+MOZ,Mozambique,Low income,Sub-Saharan Africa,34,34,0.0,true
+NAM,Namibia,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+TLS,Timor-Leste,Lower middle income,East Asia & Pacific,34,34,0.0,true
+TZA,Tanzania,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+UKR,Ukraine,Upper middle income,Europe & Central Asia,34,34,0.0,true
+ZWE,Zimbabwe,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+AUS,Australia,High income,East Asia & Pacific,34,34,0.0,true
+AGO,Angola,Lower middle income,Sub-Saharan Africa,34,34,0.0,true
+GAB,Gabon,Upper middle income,Sub-Saharan Africa,34,34,0.0,true
+GRC,Greece,High income,Europe & Central Asia,34,34,0.0,true
+GUY,Guyana,High income,Latin America & Caribbean,34,34,0.0,true
+HND,Honduras,Lower middle income,Latin America & Caribbean,34,34,0.0,true
+ISR,Israel,High income,Middle East & North Africa,34,34,0.0,true
+LKA,Sri Lanka,Lower middle income,South Asia,34,34,0.0,true
+MAR,Morocco,Lower middle income,Middle East & North Africa,34,34,0.0,true
+NIC,Nicaragua,Lower middle income,Latin America & Caribbean,34,34,0.0,true
+NRU,Nauru,High income,East Asia & Pacific,34,34,0.0,true
+SMR,San Marino,High income,Europe & Central Asia,34,34,0.0,true
+SYR,Syrian Arab Republic,Low income,Middle East & North Africa,34,34,0.0,true
+COL,Colombia,Upper middle income,Latin America & Caribbean,34,34,0.0,true
