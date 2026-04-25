@@ -1,3 +1,26 @@
+"""
+Data integration and baseline regression script for DATASCI 350 Final Project.
+
+Purpose:
+- Merge cleaned World Bank indicators into one panel dataset.
+- Create a 5-year lag of under-5 mortality.
+- Run a baseline OLS regression testing whether lagged child mortality predicts adolescent fertility.
+
+Inputs:
+- data/clean/u5_mort_clean.csv
+- clean/adol_fert_clean.csv or data/clean/adol_fert_clean.csv
+- data/clean/life_expectancy_2015_2024_clean.csv
+- data/clean/gdp_cleaned.csv if used later
+
+Outputs:
+- data/processed/wdi_merged_panel.csv
+- data/processed/wdi_regression_ready.csv
+- outputs/tables/baseline_regression_summary.txt
+
+Main model:
+adol_fert ~ u5_mort_lag5 + life_exp + C(income_group)
+"""
+
 from pathlib import Path
 import pandas as pd
 import statsmodels.formula.api as smf
