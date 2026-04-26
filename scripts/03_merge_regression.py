@@ -166,6 +166,27 @@ reg_df = df.dropna(subset=["adol_fert", "u5_mort_lag5", "life_exp", "income_grou
 
 print("Regression data shape:", reg_df.shape)
 
+print("\n SANITY CHECK")
+
+# Missing values
+print("\nMissing values by column:")
+print(df.isna().sum())
+
+# Basic summary stats
+print("\nSummary statistics:")
+print(df.describe())
+
+# Unique countries / years
+print("\nUnique countries:", df["country"].nunique())
+print("Year range:", df["year"].min(), "-", df["year"].max())
+
+# Check for duplicates
+duplicates = df.duplicated(subset=["country_code", "year"]).sum()
+print("\nDuplicate (country-year) rows:", duplicates)
+
+print("\nCheck for negative values:")
+print("u5_mort < 0:", (df["u5_mort"] < 0).sum())
+print("adol_fert < 0:", (df["adol_fert"] < 0).sum())
 
 # Save merged dataset
 
