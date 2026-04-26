@@ -1,11 +1,17 @@
-=== Baseline (lag5) ===
+ROBUSTNESS ANALYSIS RESULTS
+============================================================
+Outcome: adolescent fertility rate
+Note: life expectancy data limited to 2015-2024,
+      so lag10 is not feasible.
+
+=== Baseline (lag5 + life_exp + income_group) ===
                             OLS Regression Results                            
 ==============================================================================
 Dep. Variable:              adol_fert   R-squared:                       0.686
 Model:                            OLS   Adj. R-squared:                  0.684
 Method:                 Least Squares   F-statistic:                     336.0
 Date:                Sun, 26 Apr 2026   Prob (F-statistic):          9.76e-191
-Time:                        11:10:03   Log-Likelihood:                -3487.7
+Time:                        11:15:34   Log-Likelihood:                -3487.7
 No. Observations:                 776   AIC:                             6987.
 Df Residuals:                     770   BIC:                             7015.
 Df Model:                           5                                         
@@ -38,7 +44,7 @@ Dep. Variable:              adol_fert   R-squared:                       0.684
 Model:                            OLS   Adj. R-squared:                  0.683
 Method:                 Least Squares   F-statistic:                     502.1
 Date:                Sun, 26 Apr 2026   Prob (F-statistic):          6.43e-287
-Time:                        11:10:03   Log-Likelihood:                -5248.2
+Time:                        11:15:34   Log-Likelihood:                -5248.2
 No. Observations:                1164   AIC:                         1.051e+04
 Df Residuals:                    1158   BIC:                         1.054e+04
 Df Model:                           5                                         
@@ -71,7 +77,7 @@ Dep. Variable:              adol_fert   R-squared:                       0.705
 Model:                            OLS   Adj. R-squared:                  0.703
 Method:                 Least Squares   F-statistic:                     298.6
 Date:                Sun, 26 Apr 2026   Prob (F-statistic):          9.76e-195
-Time:                        11:10:03   Log-Likelihood:                -3369.5
+Time:                        11:15:34   Log-Likelihood:                -3369.5
 No. Observations:                 755   AIC:                             6753.
 Df Residuals:                     748   BIC:                             6785.
 Df Model:                           6                                         
@@ -96,4 +102,37 @@ Kurtosis:                       3.807   Cond. No.                     6.98e+05
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 [2] The condition number is large, 6.98e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+=== High-Coverage Subset (≥80%) ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              adol_fert   R-squared:                       0.686
+Model:                            OLS   Adj. R-squared:                  0.684
+Method:                 Least Squares   F-statistic:                     336.0
+Date:                Sun, 26 Apr 2026   Prob (F-statistic):          9.76e-191
+Time:                        11:15:34   Log-Likelihood:                -3487.7
+No. Observations:                 776   AIC:                             6987.
+Df Residuals:                     770   BIC:                             7015.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+====================================================================================================
+                                       coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------
+const                              216.0113     16.888     12.791      0.000     182.860     249.163
+u5_mort_lag5                         0.2987      0.046      6.426      0.000       0.207       0.390
+life_exp                            -2.5789      0.211    -12.251      0.000      -2.992      -2.166
+income_group_Low income             14.7074      3.893      3.778      0.000       7.064      22.350
+income_group_Lower middle income     5.5590      2.738      2.030      0.043       0.184      10.934
+income_group_Upper middle income     1.3603      2.258      0.602      0.547      -3.073       5.793
+==============================================================================
+Omnibus:                       57.333   Durbin-Watson:                   0.570
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               80.266
+Skew:                           0.589   Prob(JB):                     3.72e-18
+Kurtosis:                       4.047   Cond. No.                     1.71e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.71e+03. This might indicate that there are
 strong multicollinearity or other numerical problems.
