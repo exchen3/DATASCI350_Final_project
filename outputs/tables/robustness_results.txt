@@ -1,0 +1,83 @@
+=== Baseline (lag5) ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               life_exp   R-squared:                       0.677
+Model:                            OLS   Adj. R-squared:                  0.677
+Method:                 Least Squares   F-statistic:                     1624.
+Date:                Sat, 25 Apr 2026   Prob (F-statistic):          2.97e-192
+Time:                        23:15:53   Log-Likelihood:                -2232.6
+No. Observations:                 776   AIC:                             4469.
+Df Residuals:                     774   BIC:                             4479.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           77.6512      0.207    375.804      0.000      77.246      78.057
+u5_mort_lag5    -0.1857      0.005    -40.301      0.000      -0.195      -0.177
+==============================================================================
+Omnibus:                      217.461   Durbin-Watson:                   0.665
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4232.379
+Skew:                           0.748   Prob(JB):                         0.00
+Kurtosis:                      14.343   Cond. No.                         60.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+=== Lag 3 ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               life_exp   R-squared:                       0.717
+Model:                            OLS   Adj. R-squared:                  0.717
+Method:                 Least Squares   F-statistic:                     2946.
+Date:                Sat, 25 Apr 2026   Prob (F-statistic):          6.41e-321
+Time:                        23:15:53   Log-Likelihood:                -3288.0
+No. Observations:                1164   AIC:                             6580.
+Df Residuals:                    1162   BIC:                             6590.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           77.9795      0.160    485.945      0.000      77.665      78.294
+u5_mort_lag3    -0.2006      0.004    -54.277      0.000      -0.208      -0.193
+==============================================================================
+Omnibus:                      401.034   Durbin-Watson:                   0.514
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             7065.626
+Skew:                           1.119   Prob(JB):                         0.00
+Kurtosis:                      14.861   Cond. No.                         58.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+=== With GDP Control ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               life_exp   R-squared:                       0.820
+Model:                            OLS   Adj. R-squared:                  0.819
+Method:                 Least Squares   F-statistic:                     1711.
+Date:                Sat, 25 Apr 2026   Prob (F-statistic):          1.40e-280
+Time:                        23:15:53   Log-Likelihood:                -1952.6
+No. Observations:                 755   AIC:                             3911.
+Df Residuals:                     752   BIC:                             3925.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           76.0740      0.212    359.282      0.000      75.658      76.490
+u5_mort_lag5    -0.1853      0.004    -43.017      0.000      -0.194      -0.177
+gdp           9.604e-05   5.54e-06     17.346      0.000    8.52e-05       0.000
+==============================================================================
+Omnibus:                      291.607   Durbin-Watson:                   0.786
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2777.718
+Skew:                          -1.466   Prob(JB):                         0.00
+Kurtosis:                      11.928   Cond. No.                     5.04e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.04e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
