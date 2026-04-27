@@ -94,7 +94,7 @@ def run_model(data, lag_var, controls, label=""):
     temp = data[[lag_var, "adol_fert"] + available_controls].dropna()
 
     if temp.shape[0] < 20:
-        print(f"⚠️ Not enough data for {lag_var} {label}")
+        print(f"Not enough data for {lag_var} {label}")
         return None
 
     X = temp[[lag_var] + available_controls].copy()
@@ -109,7 +109,7 @@ def run_model(data, lag_var, controls, label=""):
     y = temp.loc[X.index, "adol_fert"]
 
     if X.shape[0] < 20:
-        print(f"⚠️ Not enough data for {lag_var} {label} after numeric cleaning")
+        print(f"Not enough data for {lag_var} {label} after numeric cleaning")
         return None
 
     X = sm.add_constant(X)
@@ -170,7 +170,7 @@ with open("outputs/tables/robustness_results.txt", "w") as f:
         f.write("\n\n=== High-Coverage Subset (≥80%) ===\n")
         f.write(model_high_cov.summary().as_text())
 
-print("\n✅ Regression results saved")
+print("Regression results saved")
 
 # -----------------------------
 # 12. Visualization
@@ -195,4 +195,4 @@ plt.tight_layout()
 plt.savefig("outputs/figures/scatter_fertility_vs_mortality.png", dpi=150)
 plt.close()
 
-print("📊 Figure saved")
+print("Figure saved")

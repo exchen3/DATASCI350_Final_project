@@ -1,0 +1,8 @@
+variable,missing_count,missing_percent
+log_u5_mort,0,0.0
+log_u5_mort_lag3,582,8.823529411764707
+log_u5_mort_lag5,970,14.705882352941178
+log_u5_mort_lag10,1940,29.411764705882355
+log_adol_fert,0,0.0
+life_exp,0,0.0
+log_gdp_per_capita,205,3.1079442086112796
