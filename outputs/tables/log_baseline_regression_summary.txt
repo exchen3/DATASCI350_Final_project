@@ -1,0 +1,36 @@
+LOG BASELINE REGRESSION
+======================================================================
+
+Formula: log_adol_fert ~ log_u5_mort_lag5 + life_exp + C(income_group)
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          log_adol_fert   R-squared:                       0.631
+Model:                            OLS   Adj. R-squared:                  0.630
+Method:                 Least Squares   F-statistic:                     1919.
+Date:                Mon, 27 Apr 2026   Prob (F-statistic):               0.00
+Time:                        10:05:02   Log-Likelihood:                -5660.8
+No. Observations:                5626   AIC:                         1.133e+04
+Df Residuals:                    5620   BIC:                         1.137e+04
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================================
+                                             coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+Intercept                                  3.0707      0.226     13.564      0.000       2.627       3.515
+C(income_group)[T.Low income]             -0.3031      0.045     -6.667      0.000      -0.392      -0.214
+C(income_group)[T.Lower middle income]    -0.1116      0.035     -3.178      0.001      -0.180      -0.043
+C(income_group)[T.Upper middle income]     0.1044      0.027      3.817      0.000       0.051       0.158
+log_u5_mort_lag5                           0.6404      0.022     29.151      0.000       0.597       0.683
+life_exp                                  -0.0226      0.002     -9.322      0.000      -0.027      -0.018
+==============================================================================
+Omnibus:                     1885.886   Durbin-Watson:                   0.090
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            10447.237
+Skew:                          -1.500   Prob(JB):                         0.00
+Kurtosis:                       8.964   Cond. No.                     1.80e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.8e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
