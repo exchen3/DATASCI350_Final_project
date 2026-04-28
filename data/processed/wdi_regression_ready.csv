@@ -1,0 +1,777 @@
+country_code,country,year,u5_mort,income_group,adol_fert,life_exp,u5_mort_lag5
+AFG,Afghanistan,2020,60.7,Low income,68.877,61.454,71.9
+AFG,Afghanistan,2021,58.7,Low income,66.599,60.417,69.4
+AFG,Afghanistan,2022,56.8,Low income,65.339,65.617,67.1
+AFG,Afghanistan,2023,54.9,Low income,64.068,66.035,64.8
+AGO,Angola,2020,54.2,Lower middle income,144.329,63.116,61.8
+AGO,Angola,2021,53.2,Lower middle income,143.383,62.958,59.6
+AGO,Angola,2022,51.9,Lower middle income,141.978,64.246,57.9
+AGO,Angola,2023,50.5,Lower middle income,140.84,64.617,56.5
+ALB,Albania,2020,9.4,Upper middle income,14.004,77.824,9.6
+ALB,Albania,2021,9.5,Upper middle income,13.002,76.844,9.4
+ALB,Albania,2022,9.4,Upper middle income,12.827,78.769,9.3
+ALB,Albania,2023,9.4,Upper middle income,12.789,79.602,9.3
+AND,Andorra,2020,2.9,High income,3.119,79.418,3.5
+AND,Andorra,2021,2.8,High income,3.5,82.331,3.4
+AND,Andorra,2022,2.7,High income,3.527,84.016,3.2
+AND,Andorra,2023,2.6,High income,3.48,84.041,3.1
+ARE,United Arab Emirates,2020,5.9,High income,3.032,81.936,7.6
+ARE,United Arab Emirates,2021,5.6,High income,2.563,79.083,7.3
+ARE,United Arab Emirates,2022,5.3,High income,2.879,80.487,7.0
+ARE,United Arab Emirates,2023,5.0,High income,3.103,82.909,6.7
+ARG,Argentina,2020,10.3,Upper middle income,31.492,75.878,11.7
+ARG,Argentina,2021,10.1,Upper middle income,28.54,73.948,11.4
+ARG,Argentina,2022,9.9,Upper middle income,25.767,75.806,11.0
+ARG,Argentina,2023,9.7,Upper middle income,26.414,77.395,10.7
+ARM,Armenia,2020,11.6,Upper middle income,13.735,73.37560976,14.7
+ARM,Armenia,2021,11.0,Upper middle income,13.66,72.27804878,14.0
+ARM,Armenia,2022,10.5,Upper middle income,13.487,74.76585366,13.3
+ARM,Armenia,2023,10.0,Upper middle income,13.445,77.46585366,12.7
+ATG,Antigua and Barbuda,2020,10.1,High income,33.916,77.161,11.0
+ATG,Antigua and Barbuda,2021,9.8,High income,33.751,77.197,10.8
+ATG,Antigua and Barbuda,2022,9.6,High income,33.469,77.483,10.7
+ATG,Antigua and Barbuda,2023,9.3,High income,32.932,77.598,10.5
+AUS,Australia,2020,3.8,High income,7.726,83.2,3.9
+AUS,Australia,2021,3.7,High income,7.089,83.3,3.8
+AUS,Australia,2022,3.7,High income,6.747,83.2,3.8
+AUS,Australia,2023,3.7,High income,6.715,83.05121951,3.8
+AUT,Austria,2020,3.4,High income,4.907,81.19268293,3.7
+AUT,Austria,2021,3.4,High income,4.426,81.1902439,3.6
+AUT,Austria,2022,3.3,High income,4.205,81.29512195,3.6
+AUT,Austria,2023,3.3,High income,3.836,81.79268293,3.5
+AZE,Azerbaijan,2020,21.5,Upper middle income,41.585,70.312,27.9
+AZE,Azerbaijan,2021,20.5,Upper middle income,34.844,70.999,26.5
+AZE,Azerbaijan,2022,19.6,Upper middle income,35.293,74.125,25.1
+AZE,Azerbaijan,2023,18.7,Upper middle income,34.767,74.429,23.8
+BDI,Burundi,2020,54.3,Low income,55.673,62.569,66.9
+BDI,Burundi,2021,52.3,Low income,54.826,62.101,63.7
+BDI,Burundi,2022,50.3,Low income,54.08,62.882,60.9
+BDI,Burundi,2023,48.7,Low income,53.364,63.651,58.5
+BEL,Belgium,2020,3.9,High income,4.884,80.69512195,4.1
+BEL,Belgium,2021,3.8,High income,4.609,81.7902439,4.1
+BEL,Belgium,2022,3.8,High income,4.372,81.74878049,4.0
+BEL,Belgium,2023,3.7,High income,3.67,82.4,4.0
+BEN,Benin,2020,84.6,Lower middle income,81.062,60.154,96.1
+BEN,Benin,2021,82.2,Lower middle income,79.804,59.61,94.0
+BEN,Benin,2022,79.6,Lower middle income,78.86,60.475,91.8
+BEN,Benin,2023,77.2,Lower middle income,77.844,60.774,89.4
+BFA,Burkina Faso,2020,85.1,Low income,91.464,60.454,100.8
+BFA,Burkina Faso,2021,82.4,Low income,90.079,60.046,97.4
+BFA,Burkina Faso,2022,79.8,Low income,88.56,60.7,94.1
+BFA,Burkina Faso,2023,77.4,Low income,87.082,61.092,91.0
+BGD,Bangladesh,2020,31.4,Lower middle income,79.184,71.421,38.5
+BGD,Bangladesh,2021,30.9,Lower middle income,75.962,71.103,36.7
+BGD,Bangladesh,2022,30.7,Lower middle income,73.128,74.265,35.0
+BGD,Bangladesh,2023,30.6,Lower middle income,73.179,74.672,33.5
+BGR,Bulgaria,2020,6.5,High income,37.508,73.35609756,8.2
+BGR,Bulgaria,2021,6.3,High income,36.408,71.21219512,7.7
+BGR,Bulgaria,2022,6.1,High income,39.409,74.16097561,7.3
+BGR,Bulgaria,2023,5.9,High income,39.098,75.75609756,7.0
+BHR,Bahrain,2020,8.0,High income,8.021,78.683,7.7
+BHR,Bahrain,2021,8.2,High income,8.364,78.083,7.6
+BHR,Bahrain,2022,8.4,High income,8.122,80.992,7.7
+BHR,Bahrain,2023,8.6,High income,7.535,81.284,7.7
+BHS,"Bahamas, The",2020,13.3,High income,25.129,72.994,14.0
+BHS,"Bahamas, The",2021,13.1,High income,24.87,70.752,13.8
+BHS,"Bahamas, The",2022,12.9,High income,24.679,74.491,13.7
+BHS,"Bahamas, The",2023,12.7,High income,24.564,74.552,13.5
+BIH,Bosnia and Herzegovina,2020,6.6,Upper middle income,11.311,76.04,6.7
+BIH,Bosnia and Herzegovina,2021,6.4,Upper middle income,11.192,74.567,6.8
+BIH,Bosnia and Herzegovina,2022,6.2,Upper middle income,11.089,76.777,6.8
+BIH,Bosnia and Herzegovina,2023,6.0,Upper middle income,11.217,77.85,6.8
+BLR,Belarus,2020,2.9,Upper middle income,10.911,72.13856098,4.1
+BLR,Belarus,2021,2.7,Upper middle income,10.659,72.07146341,3.9
+BLR,Belarus,2022,2.6,Upper middle income,9.903,74.10336585,3.6
+BLR,Belarus,2023,2.4,Upper middle income,8.595,74.18378049,3.4
+BLZ,Belize,2020,13.2,Upper middle income,58.522,71.58,15.6
+BLZ,Belize,2021,13.0,Upper middle income,51.324,70.917,15.0
+BLZ,Belize,2022,12.8,Upper middle income,53.404,72.19,14.4
+BLZ,Belize,2023,12.8,Upper middle income,55.232,73.566,13.9
+BOL,Bolivia,2020,19.3,Lower middle income,67.521,62.906,26.7
+BOL,Bolivia,2021,18.2,Lower middle income,66.639,61.427,25.0
+BOL,Bolivia,2022,17.3,Lower middle income,65.76,67.434,23.4
+BOL,Bolivia,2023,16.4,Lower middle income,64.848,68.581,22.0
+BRA,Brazil,2020,14.9,Upper middle income,47.46,74.506,16.0
+BRA,Brazil,2021,14.7,Upper middle income,45.67,73.038,16.8
+BRA,Brazil,2022,14.6,Upper middle income,42.881,74.872,15.4
+BRA,Brazil,2023,14.4,Upper middle income,42.686,75.848,15.2
+BRB,Barbados,2020,11.1,High income,45.931,76.647,12.8
+BRB,Barbados,2021,10.7,High income,45.948,76.58,12.4
+BRB,Barbados,2022,10.4,High income,45.848,75.676,12.1
+BRB,Barbados,2023,10.1,High income,45.332,76.178,11.8
+BRN,Brunei Darussalam,2020,10.4,High income,8.847,75.114,10.7
+BRN,Brunei Darussalam,2021,10.3,High income,8.581,74.869,10.7
+BRN,Brunei Darussalam,2022,10.2,High income,8.589,72.917,10.7
+BRN,Brunei Darussalam,2023,10.1,High income,8.518,75.327,10.6
+BTN,Bhutan,2020,21.3,Lower middle income,8.74,72.253,29.2
+BTN,Bhutan,2021,20.0,Lower middle income,9.645,72.448,27.4
+BTN,Bhutan,2022,19.0,Lower middle income,9.388,72.754,25.8
+BTN,Bhutan,2023,18.0,Lower middle income,9.364,72.975,24.2
+BWA,Botswana,2020,38.9,Upper middle income,55.557,67.643,46.7
+BWA,Botswana,2021,37.1,Upper middle income,55.094,63.303,45.1
+BWA,Botswana,2022,35.7,Upper middle income,54.585,68.749,42.1
+BWA,Botswana,2023,34.6,Upper middle income,53.805,69.163,41.2
+CAF,Central African Republic,2020,124.2,Low income,163.964,50.596,113.7
+CAF,Central African Republic,2021,178.7,Low income,163.575,40.279,126.8
+CAF,Central African Republic,2022,424.6,Low income,163.019,18.818,155.2
+CAF,Central African Republic,2023,92.6,Low income,163.093,57.408,120.2
+CAN,Canada,2020,5.2,High income,5.805,81.53,5.3
+CAN,Canada,2021,5.2,High income,5.262,81.45146341,5.3
+CAN,Canada,2022,5.3,High income,4.889,81.09487805,5.2
+CAN,Canada,2023,5.4,High income,4.805,81.62634146,5.2
+CHE,Switzerland,2020,4.0,High income,1.671,83.0,4.3
+CHE,Switzerland,2021,4.0,High income,1.471,83.75121951,4.2
+CHE,Switzerland,2022,3.9,High income,1.386,83.60487805,4.1
+CHE,Switzerland,2023,3.9,High income,1.483,84.15609756,4.1
+CHL,Chile,2020,6.8,High income,14.415,79.349,7.9
+CHL,Chile,2021,6.7,High income,7.892,78.876,7.7
+CHL,Chile,2022,6.8,High income,7.687,79.176,7.6
+CHL,Chile,2023,6.9,High income,6.542,81.167,7.3
+CHN,China,2020,7.5,Upper middle income,6.737,78.019,10.7
+CHN,China,2021,7.0,Upper middle income,5.996,78.117,10.0
+CHN,China,2022,6.6,Upper middle income,5.463,78.202,9.3
+CHN,China,2023,6.1,Upper middle income,5.227,77.953,8.6
+CIV,Cote d'Ivoire,2020,73.0,Lower middle income,96.903,60.14,85.5
+CIV,Cote d'Ivoire,2021,70.8,Lower middle income,94.609,60.29,83.0
+CIV,Cote d'Ivoire,2022,68.7,Lower middle income,93.194,61.562,80.5
+CIV,Cote d'Ivoire,2023,66.5,Lower middle income,92.085,61.944,77.9
+CMR,Cameroon,2020,74.4,Lower middle income,112.084,61.674,88.5
+CMR,Cameroon,2021,71.9,Lower middle income,109.907,61.146,85.1
+CMR,Cameroon,2022,69.4,Lower middle income,108.328,62.443,81.9
+CMR,Cameroon,2023,67.0,Lower middle income,106.661,63.7,78.9
+COD,"Congo, Dem. Rep.",2020,92.7,Low income,110.308,60.428,91.9
+COD,"Congo, Dem. Rep.",2021,92.9,Low income,109.234,60.044,91.5
+COD,"Congo, Dem. Rep.",2022,92.5,Low income,108.06,60.979,91.5
+COD,"Congo, Dem. Rep.",2023,91.3,Low income,106.884,61.895,91.7
+COG,"Congo, Rep.",2020,44.5,Lower middle income,113.633,64.391,52.7
+COG,"Congo, Rep.",2021,43.0,Lower middle income,112.715,64.192,51.0
+COG,"Congo, Rep.",2022,41.5,Lower middle income,111.227,65.0,49.3
+COG,"Congo, Rep.",2023,40.3,Lower middle income,109.88,65.772,47.6
+COL,Colombia,2020,13.1,Upper middle income,62.885,74.757,15.5
+COL,Colombia,2021,12.7,Upper middle income,62.023,72.698,15.0
+COL,Colombia,2022,12.3,Upper middle income,60.175,76.508,14.5
+COL,Colombia,2023,11.9,Upper middle income,59.473,77.725,14.0
+COM,Comoros,2020,43.7,Lower middle income,58.543,65.756,48.9
+COM,Comoros,2021,42.6,Lower middle income,57.386,65.201,47.9
+COM,Comoros,2022,41.4,Lower middle income,56.298,66.481,46.9
+COM,Comoros,2023,40.2,Lower middle income,55.233,66.777,45.8
+CPV,Cabo Verde,2020,13.3,Upper middle income,39.913,73.818,19.2
+CPV,Cabo Verde,2021,12.7,Upper middle income,38.922,74.424,17.6
+CPV,Cabo Verde,2022,12.1,Upper middle income,38.673,75.907,16.2
+CPV,Cabo Verde,2023,11.6,Upper middle income,38.755,76.059,15.1
+CRI,Costa Rica,2020,9.3,High income,33.354,79.725,9.0
+CRI,Costa Rica,2021,9.6,High income,27.871,78.05,8.9
+CRI,Costa Rica,2022,9.9,High income,26.451,79.316,8.9
+CRI,Costa Rica,2023,10.1,High income,26.251,80.799,9.0
+CUB,Cuba,2020,7.2,Upper middle income,50.532,77.407,6.1
+CUB,Cuba,2021,7.5,Upper middle income,48.346,73.201,6.3
+CUB,Cuba,2022,7.8,Upper middle income,47.767,77.629,6.4
+CUB,Cuba,2023,8.2,Upper middle income,48.674,78.085,6.6
+CYP,Cyprus,2020,3.3,High income,7.274,81.23,2.5
+CYP,Cyprus,2021,3.7,High income,7.077,80.573,2.5
+CYP,Cyprus,2022,4.1,High income,7.041,80.434,2.6
+CYP,Cyprus,2023,4.6,High income,6.981,81.648,2.7
+CZE,Czechia,2020,2.9,High income,9.036,78.22682927,3.2
+CZE,Czechia,2021,2.8,High income,8.096,77.22195122,3.2
+CZE,Czechia,2022,2.7,High income,6.913,78.92926829,3.2
+CZE,Czechia,2023,2.6,High income,5.979,79.82682927,3.1
+DEU,Germany,2020,3.7,High income,6.544,81.04146341,3.9
+DEU,Germany,2021,3.7,High income,6.241,80.7902439,3.9
+DEU,Germany,2022,3.7,High income,5.577,80.60804878,3.8
+DEU,Germany,2023,3.7,High income,5.473,81.04146341,3.8
+DJI,Djibouti,2020,55.7,Lower middle income,19.781,64.2,65.2
+DJI,Djibouti,2021,54.0,Lower middle income,19.58,63.83,63.2
+DJI,Djibouti,2022,52.1,Lower middle income,19.306,65.54,61.2
+DJI,Djibouti,2023,50.5,Lower middle income,18.972,65.987,59.4
+DMA,Dominica,2020,33.8,Upper middle income,35.903,71.269,29.2
+DMA,Dominica,2021,34.4,Upper middle income,34.74,69.832,30.2
+DMA,Dominica,2022,35.0,Upper middle income,34.275,71.081,31.1
+DMA,Dominica,2023,35.4,Upper middle income,34.138,71.132,32.1
+DNK,Denmark,2020,3.7,High income,1.663,81.60243902,4.1
+DNK,Denmark,2021,3.7,High income,1.42,81.40487805,4.0
+DNK,Denmark,2022,3.8,High income,1.196,81.30487805,3.9
+DNK,Denmark,2023,3.9,High income,1.14,81.75365854,3.9
+DOM,Dominican Republic,2020,33.8,Upper middle income,58.852,72.636,34.9
+DOM,Dominican Republic,2021,33.0,Upper middle income,56.058,71.757,34.9
+DOM,Dominican Republic,2022,32.3,Upper middle income,53.582,74.211,34.9
+DOM,Dominican Republic,2023,31.5,Upper middle income,52.774,73.72,34.7
+DZA,Algeria,2020,22.9,Upper middle income,9.901,73.257,24.9
+DZA,Algeria,2021,22.6,Upper middle income,9.343,75.208,24.5
+DZA,Algeria,2022,22.3,Upper middle income,8.977,76.129,24.0
+DZA,Algeria,2023,22.0,Upper middle income,8.698,76.261,23.7
+ECU,Ecuador,2020,13.6,Upper middle income,62.63,72.004,15.3
+ECU,Ecuador,2021,13.4,Upper middle income,58.609,72.746,14.8
+ECU,Ecuador,2022,13.2,Upper middle income,56.981,76.577,14.4
+ECU,Ecuador,2023,13.0,Upper middle income,55.531,77.392,14.1
+EGY,"Egypt, Arab Rep.",2020,24.4,Lower middle income,43.848,69.79,26.5
+EGY,"Egypt, Arab Rep.",2021,24.0,Lower middle income,41.901,68.976,26.0
+EGY,"Egypt, Arab Rep.",2022,23.5,Lower middle income,41.852,71.01,25.6
+EGY,"Egypt, Arab Rep.",2023,22.9,Lower middle income,41.754,71.633,25.2
+ERI,Eritrea,2020,39.1,Low income,67.189,66.98,46.4
+ERI,Eritrea,2021,37.8,Low income,66.429,66.94,44.7
+ERI,Eritrea,2022,36.6,Low income,65.724,67.789,43.3
+ERI,Eritrea,2023,35.4,Low income,65.177,68.624,41.9
+ESP,Spain,2020,3.2,High income,5.23,82.23170732,3.3
+ESP,Spain,2021,3.2,High income,4.702,83.17804878,3.3
+ESP,Spain,2022,3.2,High income,4.776,83.13414634,3.2
+ESP,Spain,2023,3.2,High income,4.809,83.93414634,3.2
+EST,Estonia,2020,2.4,High income,7.255,78.59512195,3.2
+EST,Estonia,2021,2.3,High income,6.368,76.94390244,3.0
+EST,Estonia,2022,2.2,High income,5.344,77.84390244,2.8
+EST,Estonia,2023,2.1,High income,5.026,78.79268293,2.7
+FIN,Finland,2020,2.4,High income,3.799,81.93170732,2.5
+FIN,Finland,2021,2.4,High income,3.748,81.88536585,2.4
+FIN,Finland,2022,2.4,High income,3.221,81.18780488,2.4
+FIN,Finland,2023,2.4,High income,3.095,81.58536585,2.4
+FJI,Fiji,2020,27.2,Upper middle income,21.695,66.924,20.9
+FJI,Fiji,2021,28.3,Upper middle income,21.553,64.904,21.6
+FJI,Fiji,2022,28.9,Upper middle income,21.271,67.148,22.7
+FJI,Fiji,2023,29.2,Upper middle income,21.169,67.316,24.2
+FRA,France,2020,4.2,High income,5.616,82.17560976,4.2
+FRA,France,2021,4.3,High income,4.94,82.32439024,4.2
+FRA,France,2022,4.3,High income,3.979,82.12926829,4.2
+FRA,France,2023,4.3,High income,3.507,82.83170732,4.2
+FSM,"Micronesia, Fed. Sts.",2020,25.6,Lower middle income,44.646,65.878,29.8
+FSM,"Micronesia, Fed. Sts.",2021,24.7,Lower middle income,44.033,66.152,28.9
+FSM,"Micronesia, Fed. Sts.",2022,23.9,Lower middle income,43.998,66.961,28.1
+FSM,"Micronesia, Fed. Sts.",2023,23.1,Lower middle income,43.719,67.198,27.3
+GAB,Gabon,2020,36.8,Upper middle income,96.307,67.073,44.4
+GAB,Gabon,2021,35.8,Upper middle income,94.925,67.072,42.7
+GAB,Gabon,2022,34.7,Upper middle income,93.319,67.713,41.4
+GAB,Gabon,2023,33.8,Upper middle income,91.707,68.337,39.9
+GBR,United Kingdom,2020,4.4,High income,9.701,80.3317561,4.5
+GBR,United Kingdom,2021,4.4,High income,8.578,80.64731707,4.4
+GBR,United Kingdom,2022,4.5,High income,8.379,81.01121951,4.4
+GBR,United Kingdom,2023,4.6,High income,8.359,81.23809756,4.4
+GEO,Georgia,2020,9.4,Upper middle income,27.086,73.509,10.6
+GEO,Georgia,2021,9.2,Upper middle income,25.154,71.635,10.2
+GEO,Georgia,2022,9.0,Upper middle income,21.511,74.141,10.0
+GEO,Georgia,2023,8.8,Upper middle income,21.137,74.496,9.8
+GHA,Ghana,2020,42.2,Lower middle income,62.026,64.309,52.5
+GHA,Ghana,2021,40.3,Lower middle income,59.76,64.286,50.3
+GHA,Ghana,2022,38.6,Lower middle income,58.808,65.246,48.2
+GHA,Ghana,2023,37.2,Lower middle income,58.238,65.498,46.1
+GIN,Guinea,2020,102.9,Lower middle income,125.054,59.35,113.7
+GIN,Guinea,2021,100.3,Lower middle income,122.721,59.373,111.4
+GIN,Guinea,2022,97.6,Lower middle income,120.438,60.432,109.5
+GIN,Guinea,2023,95.0,Lower middle income,118.577,60.74,107.5
+GMB,"Gambia, The",2020,48.6,Low income,61.874,64.418,58.9
+GMB,"Gambia, The",2021,47.0,Low income,60.503,63.847,56.6
+GMB,"Gambia, The",2022,45.3,Low income,59.158,64.859,54.3
+GMB,"Gambia, The",2023,43.8,Low income,58.094,65.86,52.3
+GNB,Guinea-Bissau,2020,76.7,Low income,85.874,61.343,91.6
+GNB,Guinea-Bissau,2021,74.3,Low income,84.568,61.653,88.2
+GNB,Guinea-Bissau,2022,72.0,Low income,83.159,63.605,85.1
+GNB,Guinea-Bissau,2023,69.7,Low income,81.981,64.085,82.2
+GNQ,Equatorial Guinea,2020,77.9,Upper middle income,156.024,62.141,92.1
+GNQ,Equatorial Guinea,2021,75.1,Upper middle income,154.136,62.447,89.0
+GNQ,Equatorial Guinea,2022,72.8,Upper middle income,152.146,63.355,86.1
+GNQ,Equatorial Guinea,2023,70.4,Upper middle income,150.442,63.707,83.2
+GRC,Greece,2020,4.1,High income,8.35,81.28780488,4.3
+GRC,Greece,2021,4.0,High income,7.886,80.08292683,4.3
+GRC,Greece,2022,4.0,High income,6.941,80.78780488,4.3
+GRC,Greece,2023,3.9,High income,7.044,81.73658537,4.2
+GRD,Grenada,2020,18.6,Upper middle income,30.369,75.019,17.5
+GRD,Grenada,2021,18.7,Upper middle income,29.652,74.522,17.8
+GRD,Grenada,2022,18.5,Upper middle income,29.357,75.151,18.1
+GRD,Grenada,2023,18.3,Upper middle income,29.088,75.205,18.3
+GTM,Guatemala,2020,23.5,Upper middle income,72.461,69.971,28.1
+GTM,Guatemala,2021,22.7,Upper middle income,70.295,67.858,27.0
+GTM,Guatemala,2022,21.9,Upper middle income,69.116,71.206,26.1
+GTM,Guatemala,2023,21.2,Upper middle income,68.269,72.602,25.1
+GUY,Guyana,2020,28.6,High income,74.211,67.751,33.3
+GUY,Guyana,2021,27.8,High income,72.781,64.323,32.4
+GUY,Guyana,2022,26.9,High income,71.313,69.888,31.4
+GUY,Guyana,2023,26.0,High income,69.927,70.18,30.5
+HND,Honduras,2020,17.1,Lower middle income,84.334,70.864,20.3
+HND,Honduras,2021,16.5,Lower middle income,83.508,69.492,19.6
+HND,Honduras,2022,16.0,Lower middle income,82.781,72.715,18.9
+HND,Honduras,2023,15.5,Lower middle income,82.079,72.884,18.2
+HRV,Croatia,2020,4.7,High income,7.57,77.52439024,4.9
+HRV,Croatia,2021,4.6,High income,7.542,76.42439024,4.9
+HRV,Croatia,2022,4.6,High income,6.945,77.57560976,4.8
+HRV,Croatia,2023,5.1,High income,6.57,78.47317073,4.8
+HTI,Haiti,2020,59.8,Lower middle income,52.578,63.773,69.1
+HTI,Haiti,2021,58.1,Lower middle income,51.509,62.613,67.2
+HTI,Haiti,2022,56.2,Lower middle income,50.589,63.948,65.3
+HTI,Haiti,2023,54.4,Lower middle income,49.775,64.936,63.4
+HUN,Hungary,2020,4.0,High income,21.318,75.4195122,5.1
+HUN,Hungary,2021,4.0,High income,19.787,74.06585366,4.7
+HUN,Hungary,2022,3.9,High income,18.766,75.86829268,4.5
+HUN,Hungary,2023,3.8,High income,17.537,76.57073171,4.3
+IDN,Indonesia,2020,20.8,Upper middle income,27.176,68.817,26.1
+IDN,Indonesia,2021,19.9,Upper middle income,26.824,67.452,25.0
+IDN,Indonesia,2022,19.1,Upper middle income,26.581,70.925,23.8
+IDN,Indonesia,2023,18.4,Upper middle income,26.419,71.146,22.8
+IND,India,2020,33.0,Lower middle income,14.423,70.156,43.7
+IND,India,2021,31.2,Lower middle income,14.289,67.282,41.3
+IND,India,2022,29.5,Lower middle income,14.185,71.698,39.0
+IND,India,2023,28.0,Lower middle income,14.06,72.003,36.9
+IRL,Ireland,2020,3.5,High income,5.027,82.45609756,3.7
+IRL,Ireland,2021,3.6,High income,4.798,82.25365854,3.6
+IRL,Ireland,2022,3.7,High income,4.151,82.5097561,3.5
+IRL,Ireland,2023,3.8,High income,4.069,82.80731707,3.4
+IRN,"Iran, Islamic Rep.",2020,13.0,Upper middle income,26.989,74.141,15.5
+IRN,"Iran, Islamic Rep.",2021,12.6,Upper middle income,26.445,73.752,14.9
+IRN,"Iran, Islamic Rep.",2022,12.1,Upper middle income,26.291,76.799,14.4
+IRN,"Iran, Islamic Rep.",2023,11.7,Upper middle income,26.204,77.654,13.9
+IRQ,Iraq,2020,24.9,Upper middle income,61.747,69.651,29.3
+IRQ,Iraq,2021,24.0,Upper middle income,60.371,70.704,28.4
+IRQ,Iraq,2022,23.3,Upper middle income,58.979,72.037,27.5
+IRQ,Iraq,2023,22.5,Upper middle income,58.006,72.324,26.5
+ISL,Iceland,2020,2.8,High income,4.408,83.06341463,2.6
+ISL,Iceland,2021,2.9,High income,4.15,83.16585366,2.6
+ISL,Iceland,2022,2.9,High income,3.515,82.1195122,2.7
+ISL,Iceland,2023,2.9,High income,3.369,82.45609756,2.7
+ISR,Israel,2020,3.5,High income,6.918,82.64878049,3.9
+ISR,Israel,2021,3.5,High income,6.759,82.5,3.8
+ISR,Israel,2022,3.4,High income,6.737,82.7,3.7
+ISR,Israel,2023,3.4,High income,6.204,83.19512195,3.7
+ITA,Italy,2020,3.0,High income,3.295,82.19512195,3.5
+ITA,Italy,2021,2.9,High income,3.016,82.64634146,3.4
+ITA,Italy,2022,2.8,High income,2.988,82.7,3.3
+ITA,Italy,2023,2.8,High income,2.852,83.35121951,3.2
+JAM,Jamaica,2020,18.7,Upper middle income,36.813,71.452,18.7
+JAM,Jamaica,2021,18.6,Upper middle income,36.807,69.085,18.7
+JAM,Jamaica,2022,18.4,Upper middle income,36.812,71.481,18.7
+JAM,Jamaica,2023,18.1,Upper middle income,36.541,71.479,18.7
+JOR,Jordan,2020,14.5,Lower middle income,20.981,75.583,16.5
+JOR,Jordan,2021,14.1,Lower middle income,19.418,74.204,16.1
+JOR,Jordan,2022,13.7,Lower middle income,18.875,77.088,15.7
+JOR,Jordan,2023,13.3,Lower middle income,18.425,77.814,15.3
+JPN,Japan,2020,2.4,High income,2.503,84.56,2.8
+JPN,Japan,2021,2.4,High income,2.088,84.44560976,2.7
+JPN,Japan,2022,2.4,High income,1.821,83.99634146,2.6
+JPN,Japan,2023,2.4,High income,1.737,84.04121951,2.5
+KAZ,Kazakhstan,2020,10.1,Upper middle income,21.962,71.195,11.9
+KAZ,Kazakhstan,2021,10.0,Upper middle income,21.952,70.131,11.0
+KAZ,Kazakhstan,2022,9.8,Upper middle income,18.412,73.503,10.5
+KAZ,Kazakhstan,2023,9.6,Upper middle income,18.235,74.402,10.3
+KEN,Kenya,2020,42.1,Lower middle income,59.38,61.596,46.8
+KEN,Kenya,2021,41.3,Lower middle income,59.513,61.225,45.5
+KEN,Kenya,2022,40.5,Lower middle income,57.272,63.549,44.7
+KEN,Kenya,2023,39.6,Lower middle income,56.313,63.646,43.7
+KGZ,Kyrgyz Republic,2020,17.8,Lower middle income,32.51,71.8,22.3
+KGZ,Kyrgyz Republic,2021,17.5,Lower middle income,29.623,71.9,21.1
+KGZ,Kyrgyz Republic,2022,17.3,Lower middle income,28.854,72.04878049,20.0
+KGZ,Kyrgyz Republic,2023,17.0,Lower middle income,28.324,72.24878049,19.0
+KHM,Cambodia,2020,21.8,Lower middle income,48.594,70.059,29.6
+KHM,Cambodia,2021,20.8,Lower middle income,47.847,69.301,27.5
+KHM,Cambodia,2022,19.9,Lower middle income,47.089,70.528,25.6
+KHM,Cambodia,2023,19.1,Lower middle income,46.89,70.668,24.1
+KIR,Kiribati,2020,58.3,Lower middle income,47.872,65.205,58.6
+KIR,Kiribati,2021,57.2,Lower middle income,46.388,64.148,59.1
+KIR,Kiribati,2022,55.9,Lower middle income,45.011,66.269,59.6
+KIR,Kiribati,2023,54.5,Lower middle income,44.026,66.473,59.6
+KNA,St. Kitts and Nevis,2020,17.8,High income,38.711,71.181,19.4
+KNA,St. Kitts and Nevis,2021,17.3,High income,36.993,69.271,19.3
+KNA,St. Kitts and Nevis,2022,16.8,High income,35.666,70.313,19.0
+KNA,St. Kitts and Nevis,2023,16.4,High income,35.183,72.145,18.6
+KOR,"Korea, Rep.",2020,3.1,High income,0.799,83.42682927,3.5
+KOR,"Korea, Rep.",2021,3.0,High income,0.539,83.52682927,3.4
+KOR,"Korea, Rep.",2022,2.9,High income,0.651,82.6804878,3.3
+KOR,"Korea, Rep.",2023,2.9,High income,0.537,83.42926829,3.2
+KWT,Kuwait,2020,8.8,High income,2.994,78.76097561,9.1
+KWT,Kuwait,2021,8.7,High income,2.132,78.73658537,9.0
+KWT,Kuwait,2022,8.6,High income,1.671,80.58780488,8.9
+KWT,Kuwait,2023,8.4,High income,1.576,83.18780488,8.9
+LAO,Lao PDR,2020,34.8,Lower middle income,83.548,68.339,44.4
+LAO,Lao PDR,2021,33.2,Lower middle income,82.821,67.807,42.2
+LAO,Lao PDR,2022,31.8,Lower middle income,82.431,68.715,40.2
+LAO,Lao PDR,2023,30.5,Lower middle income,81.654,68.964,38.3
+LBN,Lebanon,2020,15.1,Lower middle income,21.76,76.299,12.9
+LBN,Lebanon,2021,15.7,Lower middle income,21.366,73.65,13.2
+LBN,Lebanon,2022,16.3,Lower middle income,21.109,78.003,13.5
+LBN,Lebanon,2023,17.0,Lower middle income,20.831,77.817,14.0
+LBR,Liberia,2020,88.3,Low income,130.522,61.267,93.2
+LBR,Liberia,2021,88.0,Low income,129.044,61.166,91.5
+LBR,Liberia,2022,87.8,Low income,127.332,61.934,90.3
+LBR,Liberia,2023,87.3,Low income,126.012,62.163,89.4
+LBY,Libya,2020,11.2,Upper middle income,6.445,72.388,13.3
+LBY,Libya,2021,10.8,Upper middle income,6.274,72.062,12.8
+LBY,Libya,2022,10.4,Upper middle income,6.079,74.462,12.4
+LBY,Libya,2023,31.7,Upper middle income,5.923,69.339,11.9
+LCA,St. Lucia,2020,18.1,Upper middle income,29.294,72.308,18.7
+LCA,St. Lucia,2021,17.9,Upper middle income,28.84,69.119,18.6
+LCA,St. Lucia,2022,17.7,Upper middle income,28.551,72.67,18.5
+LCA,St. Lucia,2023,17.5,Upper middle income,27.829,72.697,18.4
+LKA,Sri Lanka,2020,6.9,Lower middle income,15.465,76.928,8.7
+LKA,Sri Lanka,2021,6.6,Lower middle income,15.401,76.278,8.3
+LKA,Sri Lanka,2022,6.3,Lower middle income,15.122,77.3,7.9
+LKA,Sri Lanka,2023,6.1,Lower middle income,15.091,77.483,7.6
+LSO,Lesotho,2020,66.3,Lower middle income,74.143,55.133,75.1
+LSO,Lesotho,2021,64.0,Lower middle income,73.048,54.209,71.4
+LSO,Lesotho,2022,62.0,Lower middle income,71.785,56.812,70.1
+LSO,Lesotho,2023,61.3,Lower middle income,70.642,57.375,68.8
+LTU,Lithuania,2020,3.7,High income,8.466,75.02926829,5.0
+LTU,Lithuania,2021,3.6,High income,6.867,74.03658537,4.8
+LTU,Lithuania,2022,3.5,High income,6.23,75.64390244,4.5
+LTU,Lithuania,2023,3.4,High income,5.854,77.2902439,4.2
+LUX,Luxembourg,2020,2.4,High income,3.901,82.14390244,2.5
+LUX,Luxembourg,2021,2.3,High income,3.604,82.59756098,2.5
+LUX,Luxembourg,2022,2.3,High income,3.98,82.94634146,2.5
+LUX,Luxembourg,2023,2.2,High income,4.023,83.3097561,2.4
+LVA,Latvia,2020,3.6,High income,10.493,75.18536585,5.1
+LVA,Latvia,2021,3.3,High income,9.835,72.9804878,4.8
+LVA,Latvia,2022,3.0,High income,8.61,74.27804878,4.5
+LVA,Latvia,2023,2.8,High income,7.565,75.42682927,4.2
+MAR,Morocco,2020,18.3,Lower middle income,26.807,73.133,23.1
+MAR,Morocco,2021,17.6,Lower middle income,26.205,73.385,21.9
+MAR,Morocco,2022,17.0,Lower middle income,25.563,75.161,20.8
+MAR,Morocco,2023,16.3,Lower middle income,25.103,75.313,19.9
+MCO,Monaco,2020,3.0,High income,10.512,86.089,3.5
+MCO,Monaco,2021,2.9,High income,9.868,85.113,3.4
+MCO,Monaco,2022,2.8,High income,9.724,85.746,3.3
+MCO,Monaco,2023,2.7,High income,9.69,86.372,3.2
+MDA,Moldova,2020,15.6,Upper middle income,26.382,69.914,15.6
+MDA,Moldova,2021,15.8,Upper middle income,24.97,68.991,15.5
+MDA,Moldova,2022,16.0,Upper middle income,22.384,71.546,15.4
+MDA,Moldova,2023,16.2,Upper middle income,23.04,71.198,15.4
+MDG,Madagascar,2020,65.1,Low income,135.016,62.706,65.3
+MDG,Madagascar,2021,65.0,Low income,133.195,62.516,64.9
+MDG,Madagascar,2022,64.5,Low income,131.566,63.068,64.9
+MDG,Madagascar,2023,63.6,Low income,129.802,63.632,64.9
+MDV,Maldives,2020,6.9,Upper middle income,6.362,78.713,9.9
+MDV,Maldives,2021,6.4,Upper middle income,6.036,78.052,9.2
+MDV,Maldives,2022,6.0,Upper middle income,5.648,80.76,8.6
+MDV,Maldives,2023,5.7,Upper middle income,5.425,81.041,8.0
+MEX,Mexico,2020,14.6,Upper middle income,62.577,70.449,16.6
+MEX,Mexico,2021,14.2,Upper middle income,62.033,69.75,16.2
+MEX,Mexico,2022,13.8,Upper middle income,61.111,73.973,15.8
+MEX,Mexico,2023,13.4,Upper middle income,60.099,75.069,15.4
+MHL,Marshall Islands,2020,30.3,Upper middle income,71.556,65.387,35.2
+MHL,Marshall Islands,2021,29.4,Upper middle income,71.146,65.421,34.2
+MHL,Marshall Islands,2022,28.5,Upper middle income,71.135,66.725,33.2
+MHL,Marshall Islands,2023,27.6,Upper middle income,71.839,66.945,32.2
+MKD,North Macedonia,2020,6.0,Upper middle income,17.157,74.39512195,11.1
+MKD,North Macedonia,2021,5.1,Upper middle income,15.952,73.24634146,10.6
+MKD,North Macedonia,2022,4.2,Upper middle income,14.731,74.42487805,9.6
+MKD,North Macedonia,2023,3.4,Upper middle income,12.963,75.31609756,8.4
+MLI,Mali,2020,87.6,Low income,143.445,58.858,109.7
+MLI,Mali,2021,83.6,Low income,141.933,59.116,105.1
+MLI,Mali,2022,79.7,Low income,140.02,60.035,100.6
+MLI,Mali,2023,76.2,Low income,138.564,60.439,96.2
+MLT,Malta,2020,6.0,High income,11.026,82.09756098,6.6
+MLT,Malta,2021,5.8,High income,10.546,82.25853659,6.5
+MLT,Malta,2022,5.6,High income,10.495,82.29756098,6.4
+MLT,Malta,2023,5.5,High income,10.398,83.35609756,6.3
+MMR,Myanmar,2020,42.1,Lower middle income,34.244,66.612,50.5
+MMR,Myanmar,2021,40.8,Lower middle income,34.141,65.553,48.7
+MMR,Myanmar,2022,39.5,Lower middle income,33.819,66.506,46.8
+MMR,Myanmar,2023,38.1,Lower middle income,33.506,66.889,45.2
+MNE,Montenegro,2020,2.9,Upper middle income,10.407,75.93170732,4.2
+MNE,Montenegro,2021,2.8,Upper middle income,10.326,73.82439024,3.9
+MNE,Montenegro,2022,2.6,Upper middle income,10.013,76.18780488,3.6
+MNE,Montenegro,2023,2.5,Upper middle income,9.375,77.58780488,3.3
+MNG,Mongolia,2020,14.8,Upper middle income,26.135,71.34902439,19.4
+MNG,Mongolia,2021,14.3,Upper middle income,22.428,71.64512195,18.4
+MNG,Mongolia,2022,13.9,Upper middle income,20.539,71.90073171,17.4
+MNG,Mongolia,2023,13.6,Upper middle income,19.739,72.12243902,16.4
+MOZ,Mozambique,2020,67.6,Low income,159.032,61.39,75.8
+MOZ,Mozambique,2021,65.5,Low income,156.822,60.268,73.3
+MOZ,Mozambique,2022,63.9,Low income,155.276,63.011,72.0
+MOZ,Mozambique,2023,61.7,Low income,153.45,63.611,70.2
+MRT,Mauritania,2020,42.0,Lower middle income,92.93,66.794,49.1
+MRT,Mauritania,2021,40.7,Lower middle income,91.693,66.762,47.7
+MRT,Mauritania,2022,39.4,Lower middle income,90.246,68.281,46.2
+MRT,Mauritania,2023,38.1,Lower middle income,88.903,68.484,44.7
+MUS,Mauritius,2020,15.8,Upper middle income,22.846,74.17707317,14.5
+MUS,Mauritius,2021,15.7,Upper middle income,21.346,73.6802439,14.6
+MUS,Mauritius,2022,15.5,Upper middle income,20.064,73.51463415,15.0
+MUS,Mauritius,2023,15.4,Upper middle income,19.768,73.41219512,15.4
+MWI,Malawi,2020,50.4,Low income,118.757,65.216,57.4
+MWI,Malawi,2021,50.0,Low income,116.517,64.782,55.8
+MWI,Malawi,2022,50.1,Low income,115.047,66.037,53.8
+MWI,Malawi,2023,49.6,Low income,113.577,67.353,52.0
+MYS,Malaysia,2020,8.2,Upper middle income,7.634,76.057,8.2
+MYS,Malaysia,2021,8.2,Upper middle income,6.364,73.917,8.2
+MYS,Malaysia,2022,8.2,Upper middle income,5.975,75.444,8.2
+MYS,Malaysia,2023,8.3,Upper middle income,5.962,76.657,8.2
+NAM,Namibia,2020,44.8,Lower middle income,70.074,64.071,51.8
+NAM,Namibia,2021,43.2,Lower middle income,68.37,60.85,51.4
+NAM,Namibia,2022,41.6,Lower middle income,66.897,64.19,49.8
+NAM,Namibia,2023,41.1,Lower middle income,66.034,67.385,48.5
+NER,Niger,2020,119.5,Low income,152.034,59.89,125.4
+NER,Niger,2021,118.0,Low income,148.248,59.542,124.3
+NER,Niger,2022,116.0,Low income,146.929,60.398,123.1
+NER,Niger,2023,113.5,Low income,145.324,61.183,121.9
+NGA,Nigeria,2020,117.4,Lower middle income,89.081,53.072,117.8
+NGA,Nigeria,2021,117.6,Lower middle income,88.457,53.455,117.4
+NGA,Nigeria,2022,117.5,Lower middle income,87.26,54.079,117.2
+NGA,Nigeria,2023,116.8,Lower middle income,86.432,54.462,117.2
+NIC,Nicaragua,2020,14.2,Lower middle income,96.514,70.766,17.2
+NIC,Nicaragua,2021,14.2,Lower middle income,95.052,70.478,16.1
+NIC,Nicaragua,2022,14.3,Lower middle income,94.053,74.463,15.3
+NIC,Nicaragua,2023,13.8,Lower middle income,93.452,74.947,14.6
+NLD,Netherlands,2020,4.0,High income,2.355,81.35853659,4.1
+NLD,Netherlands,2021,4.0,High income,2.227,81.3097561,4.1
+NLD,Netherlands,2022,4.0,High income,2.071,81.61463415,4.0
+NLD,Netherlands,2023,3.9,High income,1.858,81.86341463,4.0
+NOR,Norway,2020,2.4,High income,1.776,83.2097561,2.7
+NOR,Norway,2021,2.4,High income,1.715,83.16341463,2.6
+NOR,Norway,2022,2.4,High income,1.411,82.5097561,2.5
+NOR,Norway,2023,2.4,High income,1.405,83.01219512,2.5
+NPL,Nepal,2020,29.6,Lower middle income,70.275,69.106,37.8
+NPL,Nepal,2021,28.3,Lower middle income,68.777,68.385,36.0
+NPL,Nepal,2022,27.1,Lower middle income,68.33,70.087,34.2
+NPL,Nepal,2023,26.1,Lower middle income,67.169,70.354,32.6
+NRU,Nauru,2020,10.9,High income,79.717,61.527,17.5
+NRU,Nauru,2021,10.0,High income,80.579,61.331,15.9
+NRU,Nauru,2022,9.3,High income,78.372,61.93,14.4
+NRU,Nauru,2023,8.7,High income,76.239,62.109,13.1
+NZL,New Zealand,2020,5.1,High income,11.865,82.25609756,5.6
+NZL,New Zealand,2021,5.0,High income,10.911,82.20731707,5.5
+NZL,New Zealand,2022,5.0,High income,10.937,81.95853659,5.4
+NZL,New Zealand,2023,4.9,High income,10.879,81.75853659,5.3
+OMN,Oman,2020,10.7,High income,7.439,77.763,11.1
+OMN,Oman,2021,10.6,High income,6.743,75.969,11.0
+OMN,Oman,2022,10.5,High income,5.875,77.911,11.0
+OMN,Oman,2023,10.4,High income,5.986,80.031,10.9
+PAK,Pakistan,2020,63.7,Lower middle income,44.572,65.701,74.8
+PAK,Pakistan,2021,61.7,Lower middle income,43.372,65.773,72.4
+PAK,Pakistan,2022,59.7,Lower middle income,42.298,67.417,70.1
+PAK,Pakistan,2023,57.8,Lower middle income,41.095,67.649,67.9
+PAN,Panama,2020,15.5,High income,62.55,76.33,17.1
+PAN,Panama,2021,15.2,High income,58.035,77.004,17.0
+PAN,Panama,2022,15.1,High income,57.772,79.324,16.7
+PAN,Panama,2023,15.1,High income,57.342,79.594,16.3
+PER,Peru,2020,14.5,Upper middle income,45.423,73.832,16.6
+PER,Peru,2021,14.1,Upper middle income,44.42,71.596,16.1
+PER,Peru,2022,13.7,Upper middle income,43.933,76.834,15.7
+PER,Peru,2023,13.3,Upper middle income,43.562,77.74,15.3
+PHL,Philippines,2020,28.0,Lower middle income,34.477,70.097,27.9
+PHL,Philippines,2021,27.9,Lower middle income,32.45,66.675,27.8
+PHL,Philippines,2022,27.5,Lower middle income,32.161,69.472,27.8
+PHL,Philippines,2023,27.0,Lower middle income,31.887,69.833,27.9
+PLW,Palau,2020,22.9,High income,30.193,68.689,21.3
+PLW,Palau,2021,22.7,High income,30.02,68.563,21.9
+PLW,Palau,2022,22.4,High income,30.031,68.922,22.5
+PLW,Palau,2023,21.9,High income,29.927,69.269,22.9
+PNG,Papua New Guinea,2020,44.7,Lower middle income,56.433,65.075,57.3
+PNG,Papua New Guinea,2021,43.2,Lower middle income,55.664,64.358,50.4
+PNG,Papua New Guinea,2022,41.9,Lower middle income,55.029,65.274,48.9
+PNG,Papua New Guinea,2023,40.6,Lower middle income,54.069,66.134,47.5
+POL,Poland,2020,4.4,High income,8.107,76.4,4.9
+POL,Poland,2021,4.4,High income,6.772,75.35121951,4.8
+POL,Poland,2022,4.3,High income,5.984,77.15609756,4.6
+POL,Poland,2023,4.3,High income,6.191,78.25853659,4.5
+PRK,"Korea, Dem. People's Rep.",2020,17.4,Low income,0.552,72.783,21.4
+PRK,"Korea, Dem. People's Rep.",2021,17.4,Low income,0.539,73.437,20.6
+PRK,"Korea, Dem. People's Rep.",2022,17.7,Low income,0.525,73.641,19.1
+PRK,"Korea, Dem. People's Rep.",2023,18.0,Low income,0.512,73.642,18.4
+PRT,Portugal,2020,3.4,High income,6.776,81.32926829,3.6
+PRT,Portugal,2021,3.3,High income,5.811,81.37804878,3.6
+PRT,Portugal,2022,3.3,High income,6.642,81.63170732,3.6
+PRT,Portugal,2023,3.2,High income,6.985,82.32926829,3.5
+PRY,Paraguay,2020,18.6,Upper middle income,72.899,72.72,21.9
+PRY,Paraguay,2021,18.0,Upper middle income,71.902,68.108,21.2
+PRY,Paraguay,2022,17.5,Upper middle income,71.036,72.319,20.5
+PRY,Paraguay,2023,16.9,Upper middle income,70.332,73.844,19.9
+PSE,West Bank and Gaza,2020,15.2,Lower middle income,38.946,74.998,18.2
+PSE,West Bank and Gaza,2021,14.6,Lower middle income,37.919,73.89,17.5
+PSE,West Bank and Gaza,2022,14.1,Lower middle income,36.837,76.662,16.9
+PSE,West Bank and Gaza,2023,41.9,Lower middle income,36.043,65.17,16.3
+QAT,Qatar,2020,6.3,High income,6.137,80.409,7.8
+QAT,Qatar,2021,6.2,High income,4.894,81.083,7.5
+QAT,Qatar,2022,6.1,High income,5.63,81.857,7.1
+QAT,Qatar,2023,6.0,High income,5.693,82.368,6.8
+ROU,Romania,2020,6.5,High income,34.155,74.25365854,9.2
+ROU,Romania,2021,6.4,High income,33.234,72.8097561,8.5
+ROU,Romania,2022,6.6,High income,33.514,75.15365854,7.9
+ROU,Romania,2023,6.9,High income,33.75,76.40487805,7.3
+RUS,Russian Federation,2020,5.7,High income,13.801,71.33878049,8.2
+RUS,Russian Federation,2021,5.5,High income,13.565,69.9002439,7.5
+RUS,Russian Federation,2022,5.4,High income,13.163,72.54560976,6.9
+RUS,Russian Federation,2023,5.3,High income,12.974,73.25463415,6.4
+RWA,Rwanda,2020,41.6,Low income,31.514,66.953,47.3
+RWA,Rwanda,2021,40.6,Low income,31.158,66.85,45.8
+RWA,Rwanda,2022,39.7,Low income,31.057,67.528,44.7
+RWA,Rwanda,2023,38.8,Low income,30.779,67.785,43.7
+SAU,Saudi Arabia,2020,6.9,High income,11.266,77.596,9.0
+SAU,Saudi Arabia,2021,6.7,High income,10.467,77.089,8.5
+SAU,Saudi Arabia,2022,6.4,High income,10.29,77.31,8.0
+SAU,Saudi Arabia,2023,6.2,High income,11.114,78.732,7.6
+SDN,Sudan,2020,54.3,Low income,71.151,65.124,63.5
+SDN,Sudan,2021,52.7,Low income,69.14,64.46,61.6
+SDN,Sudan,2022,51.0,Low income,67.339,65.695,59.7
+SDN,Sudan,2023,63.1,Low income,66.071,66.331,57.8
+SEN,Senegal,2020,44.2,Lower middle income,63.118,67.496,52.2
+SEN,Senegal,2021,42.2,Lower middle income,62.176,66.868,50.8
+SEN,Senegal,2022,40.1,Lower middle income,61.034,67.788,49.4
+SEN,Senegal,2023,38.2,Lower middle income,60.242,68.683,47.9
+SGP,Singapore,2020,2.4,High income,2.276,83.54390244,2.7
+SGP,Singapore,2021,2.4,High income,2.16,83.09268293,2.6
+SGP,Singapore,2022,2.5,High income,2.17,82.89512195,2.6
+SGP,Singapore,2023,2.6,High income,2.16,83.09756098,2.5
+SLB,Solomon Islands,2020,22.5,Lower middle income,52.236,69.258,25.0
+SLB,Solomon Islands,2021,21.9,Lower middle income,51.836,68.89,24.6
+SLB,Solomon Islands,2022,21.3,Lower middle income,51.179,70.409,24.1
+SLB,Solomon Islands,2023,20.6,Lower middle income,50.372,70.528,23.6
+SLE,Sierra Leone,2020,104.4,Low income,100.177,59.694,136.8
+SLE,Sierra Leone,2021,100.6,Low income,98.06,60.26,121.8
+SLE,Sierra Leone,2022,97.1,Low income,95.743,61.275,117.0
+SLE,Sierra Leone,2023,93.8,Low income,93.592,61.786,112.4
+SLV,El Salvador,2020,11.7,Upper middle income,56.865,70.244,14.6
+SLV,El Salvador,2021,11.2,Upper middle income,56.143,69.941,13.9
+SLV,El Salvador,2022,10.8,Upper middle income,54.881,71.969,13.3
+SLV,El Salvador,2023,10.4,Upper middle income,54.23,72.099,12.7
+SMR,San Marino,2020,1.5,High income,1.151,82.65,1.9
+SMR,San Marino,2021,1.4,High income,1.177,83.539,1.8
+SMR,San Marino,2022,1.4,High income,1.158,85.708,1.7
+SMR,San Marino,2023,1.3,High income,1.158,85.706,1.6
+SOM,"Somalia, Fed. Rep.",2020,114.7,Low income,122.735,57.095,134.3
+SOM,"Somalia, Fed. Rep.",2021,111.0,Low income,120.995,55.703,130.2
+SOM,"Somalia, Fed. Rep.",2022,143.1,Low income,119.277,53.931,156.4
+SOM,"Somalia, Fed. Rep.",2023,104.3,Low income,117.1,58.816,136.4
+SRB,Serbia,2020,5.5,Upper middle income,13.468,74.47804878,6.3
+SRB,Serbia,2021,5.4,Upper middle income,13.739,72.7804878,6.1
+SRB,Serbia,2022,5.4,Upper middle income,13.833,75.23658537,5.9
+SRB,Serbia,2023,5.4,Upper middle income,13.669,76.14146341,5.8
+SSD,South Sudan,2020,96.7,Low income,100.555,57.648,240.8
+SSD,South Sudan,2021,96.7,Low income,99.485,57.047,272.9
+SSD,South Sudan,2022,96.7,Low income,98.551,57.203,292.0
+SSD,South Sudan,2023,96.7,Low income,97.132,57.617,133.7
+STP,Sao Tome and Principe,2020,16.1,Lower middle income,88.99,67.979,23.3
+STP,Sao Tome and Principe,2021,15.3,Lower middle income,87.903,68.026,21.3
+STP,Sao Tome and Principe,2022,14.7,Lower middle income,86.779,69.237,19.6
+STP,Sao Tome and Principe,2023,14.1,Lower middle income,86.195,69.718,18.2
+SUR,Suriname,2020,17.9,Upper middle income,52.064,72.321,20.6
+SUR,Suriname,2021,17.4,Upper middle income,49.56,68.943,20.1
+SUR,Suriname,2022,16.8,Upper middle income,48.814,73.254,19.5
+SUR,Suriname,2023,16.3,Upper middle income,48.032,73.631,18.9
+SVK,Slovak Republic,2020,5.9,High income,25.975,76.86585366,6.2
+SVK,Slovak Republic,2021,6.0,High income,25.872,74.61463415,6.1
+SVK,Slovak Republic,2022,6.1,High income,24.543,76.96585366,6.0
+SVK,Slovak Republic,2023,6.2,High income,24.59,78.1195122,5.9
+SVN,Slovenia,2020,2.4,High income,4.056,80.53170732,2.6
+SVN,Slovenia,2021,2.3,High income,3.83,80.67560976,2.5
+SVN,Slovenia,2022,2.3,High income,3.525,81.28292683,2.5
+SVN,Slovenia,2023,2.3,High income,3.496,81.92926829,2.4
+SWE,Sweden,2020,2.6,High income,2.75,82.35609756,2.9
+SWE,Sweden,2021,2.5,High income,2.38,83.05609756,2.8
+SWE,Sweden,2022,2.5,High income,2.016,83.05853659,2.8
+SWE,Sweden,2023,2.4,High income,1.792,83.3097561,2.7
+SWZ,Eswatini,2020,50.5,Lower middle income,72.075,59.862,57.5
+SWZ,Eswatini,2021,47.9,Lower middle income,70.741,58.228,54.4
+SWZ,Eswatini,2022,47.3,Lower middle income,69.773,63.028,53.6
+SWZ,Eswatini,2023,46.2,Lower middle income,68.726,64.123,50.4
+SYC,Seychelles,2020,14.8,High income,57.331,77.23658537,14.6
+SYC,Seychelles,2021,14.7,High income,56.384,73.39756098,14.7
+SYC,Seychelles,2022,14.5,High income,55.385,74.5097561,14.7
+SYC,Seychelles,2023,14.3,High income,54.516,75.4195122,14.8
+SYR,Syrian Arab Republic,2020,21.9,Low income,41.213,71.944,37.1
+SYR,Syrian Arab Republic,2021,20.5,Low income,40.73,72.418,32.2
+SYR,Syrian Arab Republic,2022,20.7,Low income,39.72,72.79,32.9
+SYR,Syrian Arab Republic,2023,20.1,Low income,38.91,72.12,32.5
+TCA,Turks and Caicos Islands,2020,5.3,High income,17.872,77.499,6.2
+TCA,Turks and Caicos Islands,2021,5.1,High income,17.257,77.234,6.0
+TCA,Turks and Caicos Islands,2022,5.0,High income,16.581,77.918,5.8
+TCA,Turks and Caicos Islands,2023,4.8,High income,16.189,78.008,5.6
+TCD,Chad,2020,110.6,Low income,140.715,53.082,128.7
+TCD,Chad,2021,107.3,Low income,137.946,53.136,125.0
+TCD,Chad,2022,103.9,Low income,136.697,54.528,121.4
+TCD,Chad,2023,100.6,Low income,134.738,55.069,117.6
+TGO,Togo,2020,63.9,Low income,80.816,61.14,75.2
+TGO,Togo,2021,62.0,Low income,79.696,61.337,72.8
+TGO,Togo,2022,60.0,Low income,78.269,62.292,70.4
+TGO,Togo,2023,58.1,Low income,77.05,62.74,68.1
+THA,Thailand,2020,10.1,Upper middle income,29.613,77.331,11.9
+THA,Thailand,2021,9.8,Upper middle income,27.475,77.606,11.5
+THA,Thailand,2022,9.5,Upper middle income,26.254,75.291,11.1
+THA,Thailand,2023,9.2,Upper middle income,26.145,76.412,10.8
+TJK,Tajikistan,2020,30.1,Lower middle income,45.669,68.605,32.2
+TJK,Tajikistan,2021,29.8,Lower middle income,43.993,69.594,31.5
+TJK,Tajikistan,2022,29.4,Lower middle income,42.246,71.562,31.0
+TJK,Tajikistan,2023,28.8,Lower middle income,40.437,71.79,30.7
+TKM,Turkmenistan,2020,42.9,Upper middle income,24.73,68.846,43.2
+TKM,Turkmenistan,2021,42.1,Upper middle income,24.023,69.353,43.5
+TKM,Turkmenistan,2022,41.1,Upper middle income,22.303,69.913,43.8
+TKM,Turkmenistan,2023,40.2,Upper middle income,21.227,70.073,43.8
+TLS,Timor-Leste,2020,53.4,Lower middle income,29.407,66.919,60.2
+TLS,Timor-Leste,2021,52.0,Lower middle income,28.284,66.199,58.7
+TLS,Timor-Leste,2022,50.7,Lower middle income,27.87,67.368,57.3
+TLS,Timor-Leste,2023,49.2,Lower middle income,27.406,67.689,56.0
+TON,Tonga,2020,10.6,Upper middle income,24.889,72.379,11.9
+TON,Tonga,2021,10.4,Upper middle income,24.728,72.13,11.6
+TON,Tonga,2022,10.1,Upper middle income,24.958,72.635,11.4
+TON,Tonga,2023,9.8,Upper middle income,24.841,72.895,11.1
+TTO,Trinidad and Tobago,2020,20.8,High income,37.684,72.645,22.7
+TTO,Trinidad and Tobago,2021,20.4,High income,37.22,71.111,22.3
+TTO,Trinidad and Tobago,2022,19.9,High income,36.768,73.331,22.0
+TTO,Trinidad and Tobago,2023,19.3,High income,35.994,73.49,21.6
+TUN,Tunisia,2020,16.0,Lower middle income,5.264,75.004,18.2
+TUN,Tunisia,2021,15.0,Lower middle income,4.321,72.893,18.1
+TUN,Tunisia,2022,13.9,Lower middle income,4.475,76.05,17.9
+TUN,Tunisia,2023,12.9,Lower middle income,4.315,76.508,17.5
+TUR,Turkiye,2020,10.9,Upper middle income,15.334,76.525,13.3
+TUR,Turkiye,2021,10.6,Upper middle income,13.63,75.722,12.7
+TUR,Turkiye,2022,10.2,Upper middle income,12.203,77.591,12.2
+TUR,Turkiye,2023,13.8,Upper middle income,12.055,77.156,11.7
+TUV,Tuvalu,2020,21.9,Upper middle income,28.779,66.357,26.0
+TUV,Tuvalu,2021,21.2,Upper middle income,28.474,65.824,25.2
+TUV,Tuvalu,2022,20.5,Upper middle income,28.094,66.852,24.3
+TUV,Tuvalu,2023,19.8,Upper middle income,27.507,67.105,23.5
+TZA,Tanzania,2020,43.8,Lower middle income,117.034,66.771,54.3
+TZA,Tanzania,2021,41.7,Lower middle income,115.452,66.131,52.0
+TZA,Tanzania,2022,40.1,Lower middle income,114.29,66.879,49.8
+TZA,Tanzania,2023,38.5,Lower middle income,113.209,66.995,47.6
+UGA,Uganda,2020,50.9,Low income,112.94,66.41,57.9
+UGA,Uganda,2021,50.2,Low income,110.964,66.45,55.6
+UGA,Uganda,2022,50.0,Low income,108.697,67.675,54.0
+UGA,Uganda,2023,49.4,Low income,106.954,68.252,52.7
+UKR,Ukraine,2020,8.4,Upper middle income,15.489,73.283,9.5
+UKR,Ukraine,2021,8.2,Upper middle income,14.417,71.631,9.1
+UKR,Ukraine,2022,8.5,Upper middle income,10.271,72.658,8.9
+UKR,Ukraine,2023,8.0,Upper middle income,11.377,73.422,8.7
+URY,Uruguay,2020,7.3,High income,29.59,78.381,8.9
+URY,Uruguay,2021,7.3,High income,27.356,75.434,8.4
+URY,Uruguay,2022,7.3,High income,26.487,76.468,8.0
+URY,Uruguay,2023,7.4,High income,26.188,78.138,7.7
+USA,United States,2020,6.5,High income,14.719,76.9804878,6.8
+USA,United States,2021,6.5,High income,13.724,76.32926829,6.7
+USA,United States,2022,6.5,High income,13.628,77.43414634,6.6
+USA,United States,2023,6.5,High income,13.145,78.38536585,6.5
+UZB,Uzbekistan,2020,15.1,Lower middle income,21.316,71.461,19.7
+UZB,Uzbekistan,2021,14.6,Lower middle income,31.127,71.681,18.4
+UZB,Uzbekistan,2022,14.1,Lower middle income,34.418,72.147,17.3
+UZB,Uzbekistan,2023,13.7,Lower middle income,34.081,72.388,16.4
+VCT,St. Vincent and the Grenadines,2020,13.6,Upper middle income,50.299,69.605,17.4
+VCT,St. Vincent and the Grenadines,2021,12.9,Upper middle income,44.54,69.132,16.6
+VCT,St. Vincent and the Grenadines,2022,12.3,Upper middle income,43.553,71.191,15.8
+VCT,St. Vincent and the Grenadines,2023,11.8,Upper middle income,42.3,71.23,15.0
+VGB,British Virgin Islands,2020,13.8,High income,13.731,76.894,15.5
+VGB,British Virgin Islands,2021,13.5,High income,14.387,75.297,15.2
+VGB,British Virgin Islands,2022,13.1,High income,14.539,77.177,14.9
+VGB,British Virgin Islands,2023,12.7,High income,15.27,77.276,14.6
+VNM,Viet Nam,2020,19.5,Lower middle income,35.03,75.383,21.6
+VNM,Viet Nam,2021,18.9,Lower middle income,34.666,74.145,21.3
+VNM,Viet Nam,2022,18.4,Lower middle income,34.626,74.502,20.9
+VNM,Viet Nam,2023,17.8,Lower middle income,34.277,74.588,20.5
+VUT,Vanuatu,2020,18.1,Lower middle income,69.095,70.385,18.6
+VUT,Vanuatu,2021,18.0,Lower middle income,68.166,69.952,18.4
+VUT,Vanuatu,2022,17.8,Lower middle income,67.185,71.302,18.3
+VUT,Vanuatu,2023,17.5,Lower middle income,66.219,71.477,18.2
+WSM,Samoa,2020,16.7,Upper middle income,45.462,70.727,18.3
+WSM,Samoa,2021,16.2,Upper middle income,44.02,71.096,18.1
+WSM,Samoa,2022,15.8,Upper middle income,43.866,71.55,17.8
+WSM,Samoa,2023,15.3,Upper middle income,43.538,71.698,17.5
+XKX,Kosovo,2020,10.5,Upper middle income,8.163,74.212,14.3
+XKX,Kosovo,2021,10.0,Upper middle income,8.162,74.981,13.4
+XKX,Kosovo,2022,9.5,Upper middle income,8.0,77.623,12.6
+XKX,Kosovo,2023,9.1,Upper middle income,7.834,78.033,11.9
+YEM,"Yemen, Rep.",2020,43.4,Low income,74.303,66.435,49.3
+YEM,"Yemen, Rep.",2021,42.6,Low income,74.54,66.019,47.9
+YEM,"Yemen, Rep.",2022,41.1,Low income,74.879,67.952,47.5
+YEM,"Yemen, Rep.",2023,39.5,Low income,75.328,69.295,47.3
+ZAF,South Africa,2020,33.9,Upper middle income,51.614,65.15,38.2
+ZAF,South Africa,2021,34.0,Upper middle income,52.546,62.01,36.8
+ZAF,South Africa,2022,34.3,Upper middle income,51.707,65.454,35.7
+ZAF,South Africa,2023,34.8,Upper middle income,51.56,66.139,34.9
+ZMB,Zambia,2020,52.5,Lower middle income,120.712,63.361,60.2
+ZMB,Zambia,2021,50.4,Lower middle income,118.744,62.363,57.1
+ZMB,Zambia,2022,49.5,Lower middle income,117.398,65.279,55.2
+ZMB,Zambia,2023,49.1,Lower middle income,115.907,66.349,54.7
+ZWE,Zimbabwe,2020,61.7,Lower middle income,98.893,61.53,59.2
+ZWE,Zimbabwe,2021,62.4,Lower middle income,99.199,60.135,57.5
+ZWE,Zimbabwe,2022,64.0,Lower middle income,99.484,62.36,56.7
+ZWE,Zimbabwe,2023,64.2,Lower middle income,98.057,62.775,56.3
