@@ -1,3 +1,27 @@
-
+# Mac system files
 .DS_Store
+
+# R history / environment
 .Rhistory
+.RData
+.Rproj.user/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Quarto / build outputs (optional)
+*.log
+*.aux
+*.out
+*.toc
+
+# VSCode
+.vscode/
+
+# Temporary files
+*.tmp
+*.swp
