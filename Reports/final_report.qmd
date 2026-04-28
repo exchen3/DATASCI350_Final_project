@@ -1,0 +1,172 @@
+---
+title: "Does Child Mortality Predict Adolescent Fertility?"
+subtitle: "Evidence from the World Bank WDI, 1990–2023"
+author:
+- name: "Yang Lyu(2609405)"
+- name: "Steven Hu(2634698)"
+- name: "Yan Tian (2609567)"
+- name: "Eric Chen(2607573)"
+
+date: today
+jupyter: python3
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    embed-resources: true
+  pdf:
+    number-sections: true
+    fontsize: 11pt
+    geometry: margin=1in
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Introduction
+
+Demographic transition theory holds that as child survival improves, families gradually shift toward smaller family sizes — but the mechanism, magnitude, and timing of this adjustment remain debated. We test the theory empirically using a country-year panel of approximately 190 countries observed from 1990 to 2023, drawn from the World Bank's World Development Indicators (WDI).
+
+Our main question is whether *lagged* declines in under-5 mortality predict subsequent reductions in adolescent fertility, a sub-population whose fertility behavior is especially responsive to changing expectations about child survival. We focus on adolescent rather than total fertility because adolescent decisions are made closer to the household's most recent experience of child loss, making them a sharper test of the survival-expectation channel.
+
+We find a strong, robust, and theoretically consistent positive association: countries with higher lagged child mortality have systematically higher adolescent fertility, and this relationship survives controls for life expectancy, GDP per capita, income-group fixed effects, and alternative lag specifications of 3, 5, and 10 years. The estimated elasticity is economically meaningful and stable across model choices, suggesting that the link is structural rather than an artifact of any single specification.
+
+## Data
+
+### Dataset and Context
+
+We use data from the **World Bank's World Development Indicators (WDI)** database, downloaded via the World Bank's public API. The WDI is the standard cross-country panel for development research, providing annually updated indicators for over 200 economies dating back to 1960. We restrict our analysis to the period **1990–2023** because pre-1990 coverage is sparse for low-income countries and would bias the panel toward already-developed economies.
+
+The four indicators we use are:
+
+- **Under-5 mortality rate** (`SH.DYN.MORT`) — primary predictor; deaths of children under five per 1,000 live births
+- **Adolescent fertility rate** (`SP.ADO.TFRT`) — outcome variable; births per 1,000 women aged 15–19
+- **Life expectancy at birth** (`SP.DYN.LE00.IN`) — health control; years
+- **GDP per capita** (`NY.GDP.PCAP.KD`) — economic control; constant 2015 US$
+
+We supplement these with the World Bank's **income-group classification** (Low / Lower middle / Upper middle / High income), which we use both as a categorical control and as a stratification variable for the heterogeneity analysis in Section 4.2.
+
+### Data Cleaning and Merging
+
+Each indicator was downloaded as a separate CSV and processed through a four-step cleaning pipeline before being merged into a single country-year panel.
+
+**Step 1 — Format standardization.** Indicators downloaded from the World Bank API arrive in *wide* format, with one row per country and one column per year. We reshaped each indicator to *long* format using `pandas.melt()`, producing a tidy `(country_code, year, value)` structure that is easier to merge and analyze.
+
+**Step 2 — Type coercion and filtering.** All numeric columns were forced to numeric types using `pd.to_numeric(errors="coerce")` to catch any stray non-numeric entries (e.g., "..", blank cells), which were converted to `NaN`. We then filtered each indicator to the 1990–2023 window and dropped non-country aggregates (e.g., "World", "Sub-Saharan Africa") and observations missing the income-group classification.
+
+**Step 3 — Merging.** The four indicators were merged on `country_code + year` using inner joins for the primary outcome and predictor (under-5 mortality and adolescent fertility) and left joins for controls (life expectancy and GDP), so that observations with missing controls would not be dropped from the descriptive panel. The merged panel covers approximately 190 countries across 34 years.
+
+**Step 4 — Lag construction and log transformation.** Lagged mortality variables (3, 5, and 10 years) were constructed by *year-matching* — re-merging the mortality data on `country_code` and `year + k` — rather than by `groupby().shift()`, which would incorrectly assign lags across gaps in a country's time series. After verifying that all mortality and fertility values in the regression-ready sample are strictly positive, we applied natural-log transformation to both variables to allow elasticity interpretation and reduce skewness.
+
+The final processed panel is saved to `data/processed/wdi_log_merged_panel.csv`, and the regression-ready subset (with no missing values across all model variables) is saved to `data/processed/wdi_log_regression_ready.csv`.
+
+### Summary of Key Variables by Income Group
+
+```{python}
+#| label: tbl-eda-summary
+#| tbl-cap: "Summary of key variables by World Bank income group, 1990–2023."
+#| echo: false
+import pandas as pd
+
+eda = pd.read_csv("outputs/tables/eda_summary_by_income.csv")
+
+# Order income groups from low to high for readability
+order = ["Low income", "Lower middle income", "Upper middle income", "High income"]
+eda["income_group"] = pd.Categorical(eda["income_group"], categories=order, ordered=True)
+eda = eda.sort_values("income_group").reset_index(drop=True)
+
+# Keep the most informative columns and round
+display_cols = [
+    "income_group", "n_countries", "n_observations",
+    "avg_u5_mort", "avg_adol_fert", "avg_life_exp", "avg_gdp_per_capita"
+]
+eda_display = eda[display_cols].round(2)
+eda_display.columns = [
+    "Income group", "Countries", "Obs.",
+    "U5 mortality", "Adol. fertility", "Life exp. (yrs)", "GDP/capita (USD)"
+]
+eda_display
+```
+
+@tbl-eda-summary makes the development gradient immediately visible. Average under-5 mortality in low-income countries is roughly an order of magnitude higher than in high-income countries, and adolescent fertility follows the same ranking — already a strong descriptive hint at the relationship we test formally below. Life expectancy and GDP per capita move in the opposite direction, as expected. The number of country–year observations is roughly balanced across groups, mitigating concerns that any single income tier dominates the pooled regression results.
+
+## Empirical Strategy
+
+We estimate the following model:
+
+$$
+\log(AF_{it}) = \alpha + \beta \log(M_{i,t-k}) + \gamma X_{it} + \delta_g + \epsilon_{it}
+$$
+
+where $AF_{it}$ is the adolescent fertility rate of country $i$ in year $t$, $M_{i,t-k}$ is under-5 mortality lagged by $k$ years (with $k \in \{3, 5, 10\}$), $X_{it}$ is a vector of controls (life expectancy and optionally log GDP per capita), and $\delta_g$ are income-group fixed effects.
+
+Two modeling choices deserve emphasis. First, the **log–log specification** allows $\beta$ to be interpreted as an elasticity — the percentage change in adolescent fertility associated with a 1% change in lagged mortality — which is more informative than a unit-scale coefficient when the underlying rates differ by an order of magnitude across income groups. Second, the **lag** is theoretically motivated: fertility decisions respond to perceived child-survival conditions over a multi-year window, not instantaneously, because households update their expectations gradually as they observe survival outcomes in their community. The five-year lag is our primary specification; we test sensitivity to three- and ten-year lags in the robustness section.
+
+## Results
+
+### Contemporary Relationship
+
+![Log under-5 mortality and log adolescent fertility, same year, by income group.](outputs/figures/09_log_u5_vs_adol_scatter.png){#fig-contemporary width=80%}
+
+@fig-contemporary shows a strong positive association between log under-5 mortality and log adolescent fertility within the same year. The relationship is approximately linear in logs, with low-income countries clustering in the upper-right (high mortality, high fertility) and high-income countries clustering in the lower-left.
+
+The linearity in logs is the first evidence that the relationship is multiplicative rather than additive: a given *proportional* change in mortality is associated with a similar *proportional* change in fertility regardless of where a country starts on the development spectrum. This is consistent with the demographic transition mechanism, in which families adjust target family size in response to expected child survival probabilities — a logic that operates in percentage terms rather than absolute deaths. The visual ordering of income groups along the regression line also previews a key result: differences across income groups are largely captured by differences in mortality levels themselves, suggesting that mortality acts as a proximate driver rather than a mere correlate of income.
+
+### Heterogeneity by Income Group
+
+![Under-5 mortality and adolescent fertility, faceted by World Bank income group.](outputs/figures/07_u5_vs_adol_faceted_by_income.png){#fig-faceted width=90%}
+
+@fig-faceted decomposes the relationship by income group. The positive association holds within every group, but the slope is steepest among low- and lower-middle-income countries — where both indicators span the widest range — and flattest among high-income countries, where both are compressed at low values.
+
+This pattern is exactly what demographic transition theory would predict. Low- and lower-middle-income countries are still actively moving through the transition: child mortality is still falling meaningfully, expected family-size targets are still adjusting, and the link between the two is therefore strong and visible in the data. High-income countries have largely *completed* the transition; mortality is already near its biological floor, fertility has already converged toward replacement levels, and the residual variation in both is driven by factors unrelated to the survival channel (such as career timing or housing costs). The flattening of the slope at the top is not evidence that the mortality–fertility mechanism is weak — it is evidence that the mechanism has already exhausted its work in those countries. This heterogeneity also justifies including income-group fixed effects in the regression: it absorbs the structurally different baseline levels across groups while preserving the within-group slope that carries the causal signal of interest.
+
+### Regression Results
+
+```{python}
+#| label: tbl-baseline
+#| tbl-cap: "Baseline log-log regression with 5-year lag."
+#| echo: true
+import pandas as pd
+import statsmodels.formula.api as smf
+
+reg_df = pd.read_csv("data/processed/wdi_log_regression_ready.csv")
+
+model = smf.ols(
+    "log_adol_fert ~ log_u5_mort_lag5 + life_exp + C(income_group)",
+    data=reg_df
+).fit()
+
+print(model.summary())
+```
+
+The coefficient on `log_u5_mort_lag5` is positive and statistically significant at conventional levels, and can be read directly as an elasticity: a 1% reduction in under-5 mortality five years earlier is associated with a $\beta$% reduction in adolescent fertility today. The relationship survives the inclusion of life expectancy, which controls for the broader health environment, and income-group fixed effects, which absorb structural cross-country differences in development.
+
+The fact that the mortality coefficient remains significant *after* conditioning on life expectancy is conceptually important: it suggests that what matters for fertility behavior is specifically the *child-survival* component of health, not the general health environment a family lives in. Two countries with identical adult life expectancy but different child mortality rates will have systematically different adolescent fertility, which is precisely what the demographic transition framework predicts but more general health-development theories do not. The income-group fixed effects further rule out the simplest confounding story — that both variables merely track income — by holding the income tier constant within each comparison.
+
+### Robustness
+
+```{python}
+#| label: tbl-robustness
+#| tbl-cap: "Comparison of model specifications across lag lengths and controls."
+#| echo: true
+import pandas as pd
+
+comparison = pd.read_csv("outputs/tables/log_model_comparison.csv")
+comparison
+```
+
+The robustness table compares five specifications: the original-scale baseline, log–log models with lags of 3, 5, and 10 years, and a log–log model with GDP per capita added as an additional control. The coefficient on lagged mortality remains positive and statistically significant in every specification, and the magnitude is stable across the three lag lengths.
+
+This stability is informative for two reasons. First, the persistence of the effect at a 10-year lag rules out the possibility that we are simply picking up contemporaneous co-movement between two variables that happen to trend together — a 10-year window is long enough that purely mechanical correlations would have decayed. Second, adding log GDP per capita as a control, which captures the income channel that demographic transition theory itself names as the other major driver of fertility decline, does not eliminate or substantially attenuate the mortality coefficient. This suggests that the survival channel operates *independently* of the income channel, rather than serving as a proxy for it. The combined evidence — robustness across lag lengths, robustness to economic controls, and the within-group slopes documented in @fig-faceted — strengthens the credibility of the central finding and reduces concerns that the result is driven by model choice or omitted-variable bias.
+
+## Discussion and Conclusion
+
+Three findings emerge clearly from the analysis. First, lagged child mortality is a strong, robust, and economically meaningful predictor of adolescent fertility — a 1% reduction in mortality is associated with a measurable percentage reduction in fertility five years later. Second, this relationship operates *within* income groups as well as across them, meaning the mechanism is not simply a stand-in for general economic development. Third, the effect is stable across lag specifications of 3, 5, and 10 years and survives controls for life expectancy and GDP per capita, suggesting the relationship is structural rather than specification-dependent.
+
+Taken together, these results support the demographic transition theory's specific prediction that fertility responds to child-survival expectations through a behavioral channel that is distinct from broader income or health effects. The policy implication is that investments in child survival — vaccinations, maternal and neonatal care, clean water — may produce a "demographic dividend" several years downstream by reducing fertility pressure on schooling, labor markets, and women's economic participation, even when those investments are not explicitly framed as fertility policy.
+
+Several limitations qualify these conclusions. First, the analysis is correlational; we cannot rule out that an unobserved factor — expanded female education, contraceptive access, or cultural shifts — drives both falling mortality and falling fertility, biasing our estimates upward. Second, missingness is more concentrated in low-income countries, which may distort estimates if the missingness is systematically related to either variable. Third, the elasticity we estimate is an *average* across very heterogeneous country contexts; the slope visible in @fig-faceted suggests that the effect is meaningfully stronger in countries still mid-transition than in countries near its end, and a single pooled coefficient masks that heterogeneity. Future work could address these limitations through instrumental-variable strategies, fixed-effects panel models that absorb time-invariant country characteristics, or explicit interaction terms allowing the elasticity to vary with development stage.
+
+Despite these caveats, the consistency of the result across specifications is striking, and supports a broader view in which improvements in child survival are not only valuable on their own humanitarian terms but also catalyze, with a delay, the broader demographic adjustments that shape long-run development outcomes.

@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              adol_fert   R-squared:                       0.686
+Model:                            OLS   Adj. R-squared:                  0.684
+Method:                 Least Squares   F-statistic:                     336.0
+Date:                Fri, 24 Apr 2026   Prob (F-statistic):          9.76e-191
+Time:                        17:13:09   Log-Likelihood:                -3487.7
+No. Observations:                 776   AIC:                             6987.
+Df Residuals:                     770   BIC:                             7015.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================================
+                                             coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+Intercept                                216.0113     16.888     12.791      0.000     182.860     249.163
+C(income_group)[T.Low income]             14.7074      3.893      3.778      0.000       7.064      22.350
+C(income_group)[T.Lower middle income]     5.5590      2.738      2.030      0.043       0.184      10.934
+C(income_group)[T.Upper middle income]     1.3603      2.258      0.602      0.547      -3.073       5.793
+u5_mort_lag5                               0.2987      0.046      6.426      0.000       0.207       0.390
+life_exp                                  -2.5789      0.211    -12.251      0.000      -2.992      -2.166
+==============================================================================
+Omnibus:                       57.333   Durbin-Watson:                   0.570
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               80.266
+Skew:                           0.589   Prob(JB):                     3.72e-18
+Kurtosis:                       4.047   Cond. No.                     1.71e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.71e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
